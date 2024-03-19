@@ -1,0 +1,16 @@
+% Sparkman et al analysis
+% Your Name Here
+% 21 March 2024
+
+	clear
+	import delimited "./../data/41467_2022_32412_MOESM4_ESM.csv"
+
+Create variables for regression 
+
+	gen perceived_concern = grid_gts1_1_gts1
+	gen female = 1*(resp_gender == 2)
+	gen college_grad = 1*(usedu3 > 9)
+
+Run regression and store results;
+output the results in a table: 
+	reg perceived_concern female college_grad, robust

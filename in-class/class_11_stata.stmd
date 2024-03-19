@@ -1,0 +1,102 @@
+# Getting started in Stata
+
+To use Stata for data analysis, ensure you have Stata installed on your computer. 
+Visit the official Stata website for more details: [https://www.stata.com/](https://www.stata.com/)
+
+To compile reports in Stata, use `markstat`. You can find more information here: [https://grodri.github.io/markstat/gettingStarted](https://grodri.github.io/markstat/gettingStarted)
+
+This file is a Stata markdown script, which uses the .stmd file extension. 
+For compiling. Stata with `markstat` uses a combination of Markdown for text and Stata code blocks for analyses. 
+
+When working in Stata, it's preferable to write your code in a script, so that you have a record of all the commands you ran in order, and can reproduce  your work. 
+
+* This is a comment in Stata. You can use Stata as a calculator as well.
+
+    display 1 + 1
+    display 1 - .4556
+    display 1e3
+
+* Stata has built-in functions.
+    display log(4)
+    display sin(_pi)
+    display atan(3 * _pi)
+    display sqrt(49)
+
+* Assigning quantities to named objects.
+    scalar a = 2
+    display a
+    display 3 * a
+    display 1 / a
+
+
+## Reading data into Stata
+
+In Stata, the concept of working directories is also important. You can get and set your working directory with the `pwd` and `cd` commands, respectively.
+
+* Check current working directory
+    pwd
+
+* Changing the working directory in Stata (example)
+* cd "path/to/your/directory"
+
+* Reading data into Stata. 
+    import delimited "../data/card-krueger.csv", clear
+
+* Examining the data
+    list in 1/5
+
+## Compiling reports
+
+In Stata with `markstat`, compiling reports allows integrating code and output directly into a document, similar to R Markdown and knitr. However, the syntax for documentation and comments differs slightly.
+
+We can make text **bold** or *italicized*. 
+
+### You can also create headers and sub-headers for sections. 
+
+And, we can write code inline and have it evaluated using backticks. 
+For example: `s a + a`. 
+
+You can also write equations. 
+
+For example, we can write equations inline if we put it between two dollar 
+signs, `$`.
+For example, $Y = \alpha + \beta_0 + \epsilon$. 
+
+
+You can also write multi-line equations:
+
+$$
+\begin{aligned}
+\int_0^1 x^2\,dx &= \left.\frac{1}{3} x^3\right|_0^1 \\
+&= \frac{1}{3}1^3 - \frac{1}{3}0^3 \\
+&= \frac{1}{3}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+X & = \frac{15 +30}{2} - \frac{15 + 20 + 20 + 10 + 15}{5}\\
+& = 6.5
+\end{aligned}
+$$
+
+You can also include images using Markdown syntax. 
+
+![caption](../assets/tree.jpeg){width=50%}
+
+We set the scale of the picture using the width argument (here, it's 50%)
+of the page. 
+
+* And we can include plots generated in Stata.
+
+    sysuse auto, clear
+    histogram price, title("Distribution of Car Prices") xtitle("Price") ytitle("Frequency") width(1000)
+    graph export auto.png, width(500) replace
+
+![Fuel Efficiency by Weight](auto.png)
+
+Let's compile the document now, with the command `markstat using "class_11_stata", docx`
+
+
+
+
