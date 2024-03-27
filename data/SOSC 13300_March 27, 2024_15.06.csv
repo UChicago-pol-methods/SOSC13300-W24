@@ -1,0 +1,403 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Demographics_Age,Party_ID1,Party_ID1_4_TEXT,Party_IDR,Party_IDD,Party_IDI,RenewableEnergy_supp,EnvPolicy_Priority,Treatment_positive
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,Please select your age range,"Generally speaking, do you usually think of yourself as a Republican, a Democrat, an Independent, or something else? - Selected Choice","Generally speaking, do you usually think of yourself as a Republican, a Democrat, an Independent, or something else? - Other - Text",Would you call yourself a strong Republican or a not very strong Republican?,Would you call yourself a strong Democrat or a not very strong Democrat?,Do you think of yourself as closer to the Republican or Democratic party?,To what extent do you support renewable energy initiatives?,To what extent is environmental policy a priority for you?,Treatment_positive
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID2""}","{""ImportId"":""QID1318950701""}","{""ImportId"":""QID1318950701_4_TEXT""}","{""ImportId"":""QID1318950702""}","{""ImportId"":""QID1318950703""}","{""ImportId"":""QID1318950704""}","{""ImportId"":""QID11""}","{""ImportId"":""QID14""}","{""ImportId"":""Treatment_positive""}"
+2024-03-27 15:03:35,2024-03-27 15:03:36,Survey Test,,100,1,True,2024-03-27 15:03:36,R_0NjJ4fCVqGTGgKy,,,,,,,test,,65+,Republican,,Not very strong,,,2,4,1
+2024-03-27 15:03:36,2024-03-27 15:03:36,Survey Test,,100,0,True,2024-03-27 15:03:36,R_0x3Y9EQlJ5nXYrQ,,,,,,,test,,25 - 34,Independent,,,,Democratic,,5,1
+2024-03-27 15:03:36,2024-03-27 15:03:36,Survey Test,,100,0,True,2024-03-27 15:03:36,R_ebWC25Q66hQ00Iu,,,,,,,test,,18 - 24,Other,Etiam dolor malesuada mauris molestie odio id egestas ullamcorper neque nonummy aliquet sed.,,,Neither,,2,1
+2024-03-27 15:03:36,2024-03-27 15:03:37,Survey Test,,100,1,True,2024-03-27 15:03:37,R_2lQde4Rm2Gj3Myi,,,,,,,test,,U18,No preference,,,,Democratic,,3,0
+2024-03-27 15:03:37,2024-03-27 15:03:37,Survey Test,,100,0,True,2024-03-27 15:03:37,R_1HrySUSfWLry7TU,,,,,,,test,,25 - 34,No preference,,,,Neither,,3,1
+2024-03-27 15:03:37,2024-03-27 15:03:37,Survey Test,,100,0,True,2024-03-27 15:03:37,R_8bPuO2uILKhQOhg,,,,,,,test,,35 - 44,Other,Metus sodales. Tellus! Scelerisque nonummy. Velit aliquam placerat lorem sem.,,,Democratic,,1,1
+2024-03-27 15:03:37,2024-03-27 15:03:37,Survey Test,,100,0,True,2024-03-27 15:03:38,R_0APVcUkGLZm6A6i,,,,,,,test,,35 - 44,Other,"Ante fermentum potenti suspendisse volutpat vestibulum, enim non? Aenean dolorem.",,,Neither,,1,1
+2024-03-27 15:03:38,2024-03-27 15:03:38,Survey Test,,100,0,True,2024-03-27 15:03:38,R_cHecOYn1Z0HjnWC,,,,,,,test,,35 - 44,Independent,,,,Neither,,3,0
+2024-03-27 15:03:38,2024-03-27 15:03:38,Survey Test,,100,0,True,2024-03-27 15:03:38,R_3rc4ZB5iCev5L0y,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,3,1,1
+2024-03-27 15:03:38,2024-03-27 15:03:38,Survey Test,,100,0,True,2024-03-27 15:03:38,R_5082uprkZbKIRWC,,,,,,,test,,25 - 34,Independent,,,,Democratic,,4,0
+2024-03-27 15:03:39,2024-03-27 15:03:39,Survey Test,,100,0,True,2024-03-27 15:03:39,R_4Ip5yJDG9cWP9mC,,,,,,,test,,45 - 54,Republican,,Strong,,,,3,0
+2024-03-27 15:03:39,2024-03-27 15:03:39,Survey Test,,100,0,True,2024-03-27 15:03:39,R_1LIoLObJRE08zqe,,,,,,,test,,18 - 24,Other,"Nibh donec fermentum, magna! Praesent! Praesent morbi dapibus. Faucibus ab sed interdum.",,,Neither,,2,1
+2024-03-27 15:03:39,2024-03-27 15:03:39,Survey Test,,100,0,True,2024-03-27 15:03:39,R_e4gPNMECyGpvEou,,,,,,,test,,U18,Democrat,,,Not very strong,,3,4,0
+2024-03-27 15:03:39,2024-03-27 15:03:40,Survey Test,,100,1,True,2024-03-27 15:03:40,R_7QG5OT6S0Fvx2HI,,,,,,,test,,25 - 34,Democrat,,,Strong,,,1,1
+2024-03-27 15:03:40,2024-03-27 15:03:40,Survey Test,,100,0,True,2024-03-27 15:03:40,R_832YT7AA8WGuSto,,,,,,,test,,25 - 34,No preference,,,,Republican,,3,0
+2024-03-27 15:03:40,2024-03-27 15:03:40,Survey Test,,100,0,True,2024-03-27 15:03:40,R_3ayZ7HzYGPPFrca,,,,,,,test,,18 - 24,No preference,,,,Neither,,4,0
+2024-03-27 15:03:41,2024-03-27 15:03:41,Survey Test,,100,0,True,2024-03-27 15:03:41,R_3CTIUqbDB0VCgt0,,,,,,,test,,65+,Other,Placerat arcu iaculis bibendum! At convallis. Elementum nonummy atque vel suscipit purus.,,,Democratic,,5,1
+2024-03-27 15:03:41,2024-03-27 15:03:41,Survey Test,,100,0,True,2024-03-27 15:03:41,R_6g5tSaKdOXPjgwK,,,,,,,test,,35 - 44,No preference,,,,Democratic,,3,1
+2024-03-27 15:03:41,2024-03-27 15:03:41,Survey Test,,100,0,True,2024-03-27 15:03:41,R_eahuBKOtfyfXfgO,,,,,,,test,,65+,Republican,,Strong,,,,1,0
+2024-03-27 15:03:42,2024-03-27 15:03:42,Survey Test,,100,0,True,2024-03-27 15:03:42,R_2tVAbUsXCA1wMBw,,,,,,,test,,35 - 44,Republican,,Strong,,,,1,1
+2024-03-27 15:03:42,2024-03-27 15:03:42,Survey Test,,100,0,True,2024-03-27 15:03:42,R_blTD6GsyDhg6E9E,,,,,,,test,,45 - 54,Other,"Massa atque? Duis et, dui sagittis montes facilisis morbi ipsum.",,,Neither,,3,0
+2024-03-27 15:03:42,2024-03-27 15:03:42,Survey Test,,100,0,True,2024-03-27 15:03:42,R_0TYYFnfRgc3KCxg,,,,,,,test,,65+,Independent,,,,Republican,,4,1
+2024-03-27 15:03:43,2024-03-27 15:03:43,Survey Test,,100,0,True,2024-03-27 15:03:43,R_9sllE4aP3s1O1ts,,,,,,,test,,45 - 54,Other,"Erat platea, odio in placerat fusce etiam! Sollicitudin eleifend vel, auctor elementum.",,,Neither,,5,1
+2024-03-27 15:03:43,2024-03-27 15:03:43,Survey Test,,100,0,True,2024-03-27 15:03:43,R_cUDzsVj3t1IJ5GK,,,,,,,test,,25 - 34,Independent,,,,Republican,,5,0
+2024-03-27 15:03:43,2024-03-27 15:03:43,Survey Test,,100,0,True,2024-03-27 15:03:43,R_6EXGeZ5DO6iG11k,,,,,,,test,,U18,Democrat,,,Strong,,,4,1
+2024-03-27 15:03:44,2024-03-27 15:03:44,Survey Test,,100,0,True,2024-03-27 15:03:44,R_bOcpTs8GnL4Y6Bo,,,,,,,test,,25 - 34,Republican,,Strong,,,,3,0
+2024-03-27 15:03:44,2024-03-27 15:03:44,Survey Test,,100,0,True,2024-03-27 15:03:44,R_7Pt4vqFtPLotd0W,,,,,,,test,,18 - 24,Republican,,Not very strong,,,5,5,0
+2024-03-27 15:03:44,2024-03-27 15:03:44,Survey Test,,100,0,True,2024-03-27 15:03:44,R_bxSDrXGrFP8S6JU,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,4,5,1
+2024-03-27 15:03:45,2024-03-27 15:03:45,Survey Test,,100,0,True,2024-03-27 15:03:45,R_50aYd0djuoZBm1E,,,,,,,test,,18 - 24,Independent,,,,Republican,,1,0
+2024-03-27 15:03:45,2024-03-27 15:03:45,Survey Test,,100,0,True,2024-03-27 15:03:45,R_1OjIWoRHZFJWOkC,,,,,,,test,,U18,Independent,,,,Democratic,,3,0
+2024-03-27 15:03:45,2024-03-27 15:03:45,Survey Test,,100,0,True,2024-03-27 15:03:46,R_0BqhXEBzL4iubX0,,,,,,,test,,55 - 64,Other,"Metus felis velit non sodales sagittis. Donec pede. Diam, porttitor. Eleifend interdum! Leo imperdiet wisi.",,,Republican,,2,1
+2024-03-27 15:03:46,2024-03-27 15:03:46,Survey Test,,100,0,True,2024-03-27 15:03:46,R_0cDPPZa1isxstKu,,,,,,,test,,U18,Independent,,,,Republican,,4,1
+2024-03-27 15:03:46,2024-03-27 15:03:46,Survey Test,,100,0,True,2024-03-27 15:03:46,R_d7174RUEbjMCEn4,,,,,,,test,,35 - 44,Other,Aenean faucibus platea arcu curabitur montes nec? Rutrum consectetuer enim. Quam porttitor leo ab.,,,Republican,,3,1
+2024-03-27 15:03:46,2024-03-27 15:03:47,Survey Test,,100,1,True,2024-03-27 15:03:47,R_3e2lqEMhXEgOJoO,,,,,,,test,,45 - 54,Republican,,Not very strong,,,1,5,1
+2024-03-27 15:03:49,2024-03-27 15:03:49,Survey Test,,100,0,True,2024-03-27 15:03:49,R_0SoqBbSVCHNaWBE,,,,,,,test,,25 - 34,Other,"Ultricies montes pellentesque temporibus phasellus montes turpis wisi neque tellus urna sem, wisi! Commodo.",,,Neither,,3,1
+2024-03-27 15:03:49,2024-03-27 15:03:49,Survey Test,,100,0,True,2024-03-27 15:03:50,R_0GSFM9gaSXiNfD0,,,,,,,test,,55 - 64,Democrat,,,Not very strong,,3,3,0
+2024-03-27 15:03:50,2024-03-27 15:03:50,Survey Test,,100,0,True,2024-03-27 15:03:50,R_a4UUrHyAetw81UO,,,,,,,test,,U18,No preference,,,,Republican,,5,1
+2024-03-27 15:03:50,2024-03-27 15:03:50,Survey Test,,100,0,True,2024-03-27 15:03:50,R_4GdNr9FV09dSWZU,,,,,,,test,,65+,Other,Rhoncus amet iaculis augue dignissim. Aliquet pede magnis sed cras tortor tempora.,,,Republican,,4,0
+2024-03-27 15:03:50,2024-03-27 15:03:51,Survey Test,,100,1,True,2024-03-27 15:03:51,R_3jxMuVrpDnwajNI,,,,,,,test,,35 - 44,Democrat,,,Strong,,,5,1
+2024-03-27 15:03:51,2024-03-27 15:03:51,Survey Test,,100,0,True,2024-03-27 15:03:51,R_5pDS46c4voRhUsS,,,,,,,test,,35 - 44,Independent,,,,Neither,,3,1
+2024-03-27 15:03:51,2024-03-27 15:03:51,Survey Test,,100,0,True,2024-03-27 15:03:51,R_ehwQZq4r1TYY0Yu,,,,,,,test,,65+,Democrat,,,Not very strong,,3,2,1
+2024-03-27 15:03:52,2024-03-27 15:03:52,Survey Test,,100,0,True,2024-03-27 15:03:52,R_ai4PZUkKTGrJW2W,,,,,,,test,,25 - 34,Republican,,Strong,,,,1,0
+2024-03-27 15:03:52,2024-03-27 15:03:52,Survey Test,,100,0,True,2024-03-27 15:03:52,R_eLhMQNEYWw8jZ4i,,,,,,,test,,18 - 24,No preference,,,,Republican,,3,1
+2024-03-27 15:03:52,2024-03-27 15:03:52,Survey Test,,100,0,True,2024-03-27 15:03:52,R_blbOwdP4o81WvYy,,,,,,,test,,45 - 54,Democrat,,,Not very strong,,3,3,0
+2024-03-27 15:03:53,2024-03-27 15:03:53,Survey Test,,100,0,True,2024-03-27 15:03:53,R_2hh3LPKs3atFH70,,,,,,,test,,U18,Democrat,,,Not very strong,,1,5,1
+2024-03-27 15:03:53,2024-03-27 15:03:53,Survey Test,,100,0,True,2024-03-27 15:03:53,R_eQeZ6BEctSl03Do,,,,,,,test,,35 - 44,No preference,,,,Republican,,4,1
+2024-03-27 15:03:53,2024-03-27 15:03:53,Survey Test,,100,0,True,2024-03-27 15:03:53,R_2twYSTuSJtTgarA,,,,,,,test,,U18,No preference,,,,Republican,,4,0
+2024-03-27 15:03:54,2024-03-27 15:03:54,Survey Test,,100,0,True,2024-03-27 15:03:54,R_41JVYVdAZN23ZlQ,,,,,,,test,,U18,Other,Volutpat aliquet porta sodales! Facilisi lectus euismod lorem posuere? Et blandit.,,,Democratic,,4,1
+2024-03-27 15:03:54,2024-03-27 15:03:54,Survey Test,,100,0,True,2024-03-27 15:03:54,R_4MdLbAY3AVnhROK,,,,,,,test,,55 - 64,Republican,,Not very strong,,,3,2,1
+2024-03-27 15:03:54,2024-03-27 15:03:54,Survey Test,,100,0,True,2024-03-27 15:03:54,R_0xnKJxHNWF3O9Iq,,,,,,,test,,U18,Republican,,Not very strong,,,1,1,1
+2024-03-27 15:03:55,2024-03-27 15:03:55,Survey Test,,100,0,True,2024-03-27 15:03:55,R_79TkwPB0gXCycSO,,,,,,,test,,18 - 24,Other,Commodo massa aliquet. Phasellus rutrum! Ut imperdiet vel metus. Egestas.,,,Republican,,3,0
+2024-03-27 15:03:55,2024-03-27 15:03:55,Survey Test,,100,0,True,2024-03-27 15:03:55,R_9BssHuVDA7WkvpY,,,,,,,test,,35 - 44,Republican,,Not very strong,,,1,5,0
+2024-03-27 15:03:55,2024-03-27 15:03:55,Survey Test,,100,0,True,2024-03-27 15:03:55,R_4THuSZznxbIujZA,,,,,,,test,,18 - 24,Other,Natoque tempus. Euismod dictumst nunc? Id luctus tortor molestie. Per venenatis mattis wisi montes.,,,Republican,,3,0
+2024-03-27 15:03:55,2024-03-27 15:03:56,Survey Test,,100,1,True,2024-03-27 15:03:56,R_0IBfGvYIzl79kZ8,,,,,,,test,,45 - 54,Independent,,,,Republican,,5,1
+2024-03-27 15:03:57,2024-03-27 15:03:57,Survey Test,,100,0,True,2024-03-27 15:03:57,R_0IjNF5UIW39DnPU,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,4,4,0
+2024-03-27 15:03:57,2024-03-27 15:03:57,Survey Test,,100,0,True,2024-03-27 15:03:57,R_b0WXqrG4PsEglwi,,,,,,,test,,U18,Republican,,Strong,,,,5,0
+2024-03-27 15:03:57,2024-03-27 15:03:57,Survey Test,,100,0,True,2024-03-27 15:03:57,R_3kQ43fIn3biHNoG,,,,,,,test,,45 - 54,Other,Commodo nunc ridiculus accumsan turpis neque dui ullamcorper urna a sagittis porttitor.,,,Republican,,4,1
+2024-03-27 15:03:57,2024-03-27 15:03:58,Survey Test,,100,1,True,2024-03-27 15:03:58,R_8evNSqUILjUuy7Y,,,,,,,test,,35 - 44,No preference,,,,Republican,,3,0
+2024-03-27 15:03:59,2024-03-27 15:03:59,Survey Test,,100,0,True,2024-03-27 15:03:59,R_1MozaiQ0terXOKy,,,,,,,test,,55 - 64,Republican,,Strong,,,,2,0
+2024-03-27 15:03:59,2024-03-27 15:03:59,Survey Test,,100,0,True,2024-03-27 15:03:59,R_2c7R8BROT7ZgUCy,,,,,,,test,,25 - 34,Democrat,,,Strong,,,1,0
+2024-03-27 15:04:00,2024-03-27 15:04:00,Survey Test,,100,0,True,2024-03-27 15:04:00,R_2iztUDNSEW2KoiW,,,,,,,test,,55 - 64,No preference,,,,Republican,,5,0
+2024-03-27 15:04:00,2024-03-27 15:04:00,Survey Test,,100,0,True,2024-03-27 15:04:00,R_2gVmDqQKjCjAXCS,,,,,,,test,,55 - 64,No preference,,,,Democratic,,5,0
+2024-03-27 15:04:00,2024-03-27 15:04:01,Survey Test,,100,1,True,2024-03-27 15:04:01,R_0fDDxB6Jiaqh6my,,,,,,,test,,65+,Republican,,Not very strong,,,5,5,0
+2024-03-27 15:04:01,2024-03-27 15:04:01,Survey Test,,100,0,True,2024-03-27 15:04:01,R_81zQvokimzcXdBQ,,,,,,,test,,65+,Independent,,,,Republican,,1,0
+2024-03-27 15:04:01,2024-03-27 15:04:01,Survey Test,,100,0,True,2024-03-27 15:04:01,R_3POvKLq3jm81bds,,,,,,,test,,U18,Republican,,Not very strong,,,2,2,1
+2024-03-27 15:04:02,2024-03-27 15:04:02,Survey Test,,100,0,True,2024-03-27 15:04:02,R_eRroeJcVB2Nr0rA,,,,,,,test,,65+,Republican,,Not very strong,,,3,5,0
+2024-03-27 15:04:02,2024-03-27 15:04:02,Survey Test,,100,0,True,2024-03-27 15:04:02,R_cBerwOGxgOoFFGu,,,,,,,test,,45 - 54,Independent,,,,Republican,,5,1
+2024-03-27 15:04:02,2024-03-27 15:04:02,Survey Test,,100,0,True,2024-03-27 15:04:03,R_ddkI6gMI4n4YUBg,,,,,,,test,,45 - 54,Other,Mattis ligula odio accusamus atque dui curabitur mauris posuere et at.,,,Neither,,4,1
+2024-03-27 15:04:03,2024-03-27 15:04:03,Survey Test,,100,0,True,2024-03-27 15:04:03,R_2noMxRvEwbC3R6S,,,,,,,test,,65+,Independent,,,,Neither,,3,0
+2024-03-27 15:04:03,2024-03-27 15:04:03,Survey Test,,100,0,True,2024-03-27 15:04:03,R_eFZySX0mgay58mW,,,,,,,test,,45 - 54,Other,"Proin. Molestie sodales dictumst? Neque nunc? Enim? Rhoncus, nunc elit vulputate suspendisse viverra dolorem consectetuer.",,,Neither,,1,0
+2024-03-27 15:04:04,2024-03-27 15:04:04,Survey Test,,100,0,True,2024-03-27 15:04:04,R_7Onm53LmivR3IAC,,,,,,,test,,25 - 34,Republican,,Not very strong,,,4,5,1
+2024-03-27 15:04:04,2024-03-27 15:04:04,Survey Test,,100,0,True,2024-03-27 15:04:04,R_4G6rD8rlT5DR0cm,,,,,,,test,,45 - 54,Republican,,Not very strong,,,1,1,0
+2024-03-27 15:04:04,2024-03-27 15:04:04,Survey Test,,100,0,True,2024-03-27 15:04:04,R_9GiCUbmqvjwqR4a,,,,,,,test,,55 - 64,No preference,,,,Neither,,4,0
+2024-03-27 15:04:04,2024-03-27 15:04:04,Survey Test,,100,0,True,2024-03-27 15:04:05,R_eqSYGKmqxUobMtU,,,,,,,test,,25 - 34,No preference,,,,Neither,,2,1
+2024-03-27 15:04:05,2024-03-27 15:04:05,Survey Test,,100,0,True,2024-03-27 15:04:05,R_5yGFuIWnZ7NbEKa,,,,,,,test,,25 - 34,Republican,,Not very strong,,,4,4,1
+2024-03-27 15:04:05,2024-03-27 15:04:05,Survey Test,,100,0,True,2024-03-27 15:04:05,R_41JFWX5zgLFF6GW,,,,,,,test,,18 - 24,Democrat,,,Not very strong,,4,1,1
+2024-03-27 15:04:05,2024-03-27 15:04:05,Survey Test,,100,0,True,2024-03-27 15:04:06,R_a4enq3oYa8ZA7JQ,,,,,,,test,,18 - 24,Other,Magna metus? Justo a augue ligula blandit elementum arcu neque. Blandit.,,,Democratic,,5,0
+2024-03-27 15:04:06,2024-03-27 15:04:06,Survey Test,,100,0,True,2024-03-27 15:04:06,R_4NIkcZ0ICDy8jzw,,,,,,,test,,65+,No preference,,,,Republican,,3,1
+2024-03-27 15:04:06,2024-03-27 15:04:06,Survey Test,,100,0,True,2024-03-27 15:04:06,R_9S67jyhx9ELv7aC,,,,,,,test,,65+,Democrat,,,Strong,,,5,0
+2024-03-27 15:04:06,2024-03-27 15:04:06,Survey Test,,100,0,True,2024-03-27 15:04:07,R_1Rkq7bvBDdR25mu,,,,,,,test,,65+,No preference,,,,Democratic,,3,1
+2024-03-27 15:04:07,2024-03-27 15:04:07,Survey Test,,100,0,True,2024-03-27 15:04:07,R_5u55yyhdkbX1stE,,,,,,,test,,65+,Other,"Phasellus malesuada a integer neque, justo id nullam faucibus vestibulum volutpat a culpa.",,,Neither,,3,1
+2024-03-27 15:04:07,2024-03-27 15:04:07,Survey Test,,100,0,True,2024-03-27 15:04:07,R_74gHAsqsGpC3MRE,,,,,,,test,,45 - 54,No preference,,,,Neither,,2,0
+2024-03-27 15:04:07,2024-03-27 15:04:07,Survey Test,,100,0,True,2024-03-27 15:04:07,R_0StycJV8LQlgRLw,,,,,,,test,,25 - 34,No preference,,,,Democratic,,5,0
+2024-03-27 15:04:08,2024-03-27 15:04:08,Survey Test,,100,0,True,2024-03-27 15:04:08,R_bqs1G6dV093Qehw,,,,,,,test,,18 - 24,Other,Vehicula luctus ab magnis volutpat sit pretium eleifend dolor vivamus elementum.,,,Democratic,,5,0
+2024-03-27 15:04:08,2024-03-27 15:04:08,Survey Test,,100,0,True,2024-03-27 15:04:08,R_9GpUyKmDaLPsS0u,,,,,,,test,,U18,Republican,,Strong,,,,4,0
+2024-03-27 15:04:08,2024-03-27 15:04:08,Survey Test,,100,0,True,2024-03-27 15:04:09,R_6XxsgXwICqc4ycm,,,,,,,test,,18 - 24,Other,Facilisi orci vel elit sollicitudin. Erat sed laoreet faucibus porttitor venenatis. Nullam nulla.,,,Neither,,3,1
+2024-03-27 15:04:09,2024-03-27 15:04:09,Survey Test,,100,0,True,2024-03-27 15:04:09,R_6DOrzBhA9asPEQ6,,,,,,,test,,35 - 44,Other,"Auctor! Facilisis ut! Porta id egestas. Lectus convallis ultrices cras sed, tellus gravida, viverra.",,,Democratic,,5,1
+2024-03-27 15:04:09,2024-03-27 15:04:09,Survey Test,,100,0,True,2024-03-27 15:04:09,R_1HT1Yw9v3ESorcO,,,,,,,test,,45 - 54,Republican,,Strong,,,,5,1
+2024-03-27 15:04:09,2024-03-27 15:04:09,Survey Test,,100,0,True,2024-03-27 15:04:10,R_dmcjZsyH4plQexw,,,,,,,test,,18 - 24,No preference,,,,Neither,,4,0
+2024-03-27 15:04:10,2024-03-27 15:04:10,Survey Test,,100,0,True,2024-03-27 15:04:10,R_d9UViFGzGSxHHYW,,,,,,,test,,U18,No preference,,,,Democratic,,4,0
+2024-03-27 15:04:10,2024-03-27 15:04:10,Survey Test,,100,0,True,2024-03-27 15:04:10,R_0e21hZSRzOq7YRU,,,,,,,test,,18 - 24,Independent,,,,Democratic,,1,1
+2024-03-27 15:04:11,2024-03-27 15:04:11,Survey Test,,100,0,True,2024-03-27 15:04:11,R_735YHa3S5l2MZKe,,,,,,,test,,55 - 64,Democrat,,,Strong,,,1,0
+2024-03-27 15:04:11,2024-03-27 15:04:11,Survey Test,,100,0,True,2024-03-27 15:04:11,R_5sCpyaNOp653fPo,,,,,,,test,,55 - 64,Independent,,,,Neither,,2,0
+2024-03-27 15:04:11,2024-03-27 15:04:11,Survey Test,,100,0,True,2024-03-27 15:04:12,R_b2FBDRcIqIQniDA,,,,,,,test,,65+,Democrat,,,Not very strong,,3,3,0
+2024-03-27 15:04:12,2024-03-27 15:04:12,Survey Test,,100,0,True,2024-03-27 15:04:12,R_cByJ8vZxWOFHTn0,,,,,,,test,,18 - 24,Republican,,Strong,,,,2,0
+2024-03-27 15:04:12,2024-03-27 15:04:12,Survey Test,,100,0,True,2024-03-27 15:04:12,R_0wyvuXi9ziqPuZw,,,,,,,test,,U18,Independent,,,,Republican,,1,1
+2024-03-27 15:04:12,2024-03-27 15:04:12,Survey Test,,100,0,True,2024-03-27 15:04:13,R_0CirOwf1LDHlwmG,,,,,,,test,,55 - 64,No preference,,,,Neither,,3,1
+2024-03-27 15:04:13,2024-03-27 15:04:13,Survey Test,,100,0,True,2024-03-27 15:04:13,R_0wvAIYrmsLBgqJE,,,,,,,test,,U18,Democrat,,,Not very strong,,4,1,1
+2024-03-27 15:04:13,2024-03-27 15:04:13,Survey Test,,100,0,True,2024-03-27 15:04:13,R_9KodOThQPBTSmlo,,,,,,,test,,35 - 44,Other,Primis vel dolorem ligula orci tincidunt donec dapibus sit dapibus elit temporibus.,,,Republican,,4,1
+2024-03-27 15:04:13,2024-03-27 15:04:13,Survey Test,,100,0,True,2024-03-27 15:04:14,R_71EL3lTRYB55xk2,,,,,,,test,,18 - 24,Other,Placerat mi vestibulum. Integer at id id ultricies felis erat molestie pede? Id nonummy.,,,Neither,,1,0
+2024-03-27 15:04:17,2024-03-27 15:04:18,Survey Test,,100,1,True,2024-03-27 15:04:18,R_eJQpJLX16UZYRf0,,,,,,,test,,35 - 44,Republican,,Not very strong,,,2,3,1
+2024-03-27 15:04:18,2024-03-27 15:04:18,Survey Test,,100,0,True,2024-03-27 15:04:18,R_0Cx5kbB6609fc6G,,,,,,,test,,25 - 34,Other,Id sollicitudin sit fringilla! Dapibus pede duis nonummy ridiculus magna temporibus viverra.,,,Republican,,3,0
+2024-03-27 15:04:18,2024-03-27 15:04:19,Survey Test,,100,1,True,2024-03-27 15:04:19,R_b9KYV9l36wagNTM,,,,,,,test,,35 - 44,No preference,,,,Neither,,3,1
+2024-03-27 15:04:19,2024-03-27 15:04:19,Survey Test,,100,0,True,2024-03-27 15:04:19,R_cBD8V8u2Hlzapgy,,,,,,,test,,U18,Democrat,,,Strong,,,5,1
+2024-03-27 15:04:19,2024-03-27 15:04:19,Survey Test,,100,0,True,2024-03-27 15:04:19,R_7O1nKbgHGpjBJnU,,,,,,,test,,65+,Democrat,,,Not very strong,,5,3,1
+2024-03-27 15:04:20,2024-03-27 15:04:20,Survey Test,,100,0,True,2024-03-27 15:04:20,R_2t4adBoVgerdmoS,,,,,,,test,,25 - 34,No preference,,,,Neither,,4,0
+2024-03-27 15:04:20,2024-03-27 15:04:20,Survey Test,,100,0,True,2024-03-27 15:04:20,R_79bv5STnCiq6Suq,,,,,,,test,,18 - 24,Republican,,Strong,,,,3,0
+2024-03-27 15:04:20,2024-03-27 15:04:21,Survey Test,,100,1,True,2024-03-27 15:04:21,R_emNmEgVy3GslnLg,,,,,,,test,,35 - 44,No preference,,,,Republican,,5,0
+2024-03-27 15:04:21,2024-03-27 15:04:21,Survey Test,,100,0,True,2024-03-27 15:04:22,R_d58FR2ER0bF4kTQ,,,,,,,test,,U18,Democrat,,,Not very strong,,5,4,0
+2024-03-27 15:04:22,2024-03-27 15:04:22,Survey Test,,100,0,True,2024-03-27 15:04:22,R_01kqOgEDJ5XQErc,,,,,,,test,,18 - 24,Other,Arcu magna sapien massa blandit. Aliquet molestie mauris dui ultricies etiam ligula.,,,Neither,,1,1
+2024-03-27 15:04:22,2024-03-27 15:04:22,Survey Test,,100,0,True,2024-03-27 15:04:22,R_dnk8MsJO58gNyd0,,,,,,,test,,18 - 24,Democrat,,,Not very strong,,4,2,1
+2024-03-27 15:04:23,2024-03-27 15:04:23,Survey Test,,100,0,True,2024-03-27 15:04:23,R_4UFpMonULW46P4i,,,,,,,test,,18 - 24,Independent,,,,Republican,,3,0
+2024-03-27 15:04:23,2024-03-27 15:04:23,Survey Test,,100,0,True,2024-03-27 15:04:23,R_81XI6IfD8MCv89M,,,,,,,test,,55 - 64,Democrat,,,Strong,,,5,1
+2024-03-27 15:04:23,2024-03-27 15:04:23,Survey Test,,100,0,True,2024-03-27 15:04:23,R_6upyJI6Asu2qUZM,,,,,,,test,,25 - 34,Democrat,,,Not very strong,,3,5,1
+2024-03-27 15:04:24,2024-03-27 15:04:24,Survey Test,,100,0,True,2024-03-27 15:04:24,R_2l85rXI4b9De9vw,,,,,,,test,,25 - 34,Other,Ultrices dictumst felis in? Purus viverra primis fringilla faucibus donec at.,,,Republican,,4,1
+2024-03-27 15:04:24,2024-03-27 15:04:24,Survey Test,,100,0,True,2024-03-27 15:04:24,R_0wg6d4HbfeBeKX4,,,,,,,test,,U18,Independent,,,,Neither,,3,1
+2024-03-27 15:04:24,2024-03-27 15:04:24,Survey Test,,100,0,True,2024-03-27 15:04:24,R_em9RYcWle9KgYdg,,,,,,,test,,65+,Other,Auctor tellus urna duis risus porta nulla! Enim arcu enim accusamus.,,,Neither,,1,1
+2024-03-27 15:04:25,2024-03-27 15:04:25,Survey Test,,100,0,True,2024-03-27 15:04:25,R_7arcTfvAl3gC2jk,,,,,,,test,,45 - 54,Independent,,,,Democratic,,1,0
+2024-03-27 15:04:25,2024-03-27 15:04:25,Survey Test,,100,0,True,2024-03-27 15:04:25,R_4Ys1INGlNNNNUKW,,,,,,,test,,35 - 44,Republican,,Not very strong,,,3,5,0
+2024-03-27 15:04:25,2024-03-27 15:04:25,Survey Test,,100,0,True,2024-03-27 15:04:26,R_3TVnm6eUAaGZbUO,,,,,,,test,,45 - 54,Other,"Volutpat mi a magna gravida ridiculus, interdum per. Imperdiet? Integer.",,,Neither,,2,1
+2024-03-27 15:04:26,2024-03-27 15:04:26,Survey Test,,100,0,True,2024-03-27 15:04:26,R_8e5H4uboZkn2OHk,,,,,,,test,,25 - 34,Democrat,,,Strong,,,4,1
+2024-03-27 15:04:26,2024-03-27 15:04:26,Survey Test,,100,0,True,2024-03-27 15:04:26,R_86OZLbw1RvC2BDM,,,,,,,test,,55 - 64,Other,Pellentesque tortor sed. Mi enim eros potenti suscipit phasellus dolor proin.,,,Republican,,4,1
+2024-03-27 15:04:26,2024-03-27 15:04:26,Survey Test,,100,0,True,2024-03-27 15:04:27,R_4VgJQZMOEE6Dxbg,,,,,,,test,,35 - 44,Democrat,,,Strong,,,1,1
+2024-03-27 15:04:27,2024-03-27 15:04:27,Survey Test,,100,0,True,2024-03-27 15:04:27,R_8Ci1Srt9O7ipNK6,,,,,,,test,,45 - 54,Independent,,,,Neither,,2,0
+2024-03-27 15:04:27,2024-03-27 15:04:27,Survey Test,,100,0,True,2024-03-27 15:04:27,R_9n9aWSvAOqfp3oy,,,,,,,test,,U18,No preference,,,,Neither,,4,0
+2024-03-27 15:04:27,2024-03-27 15:04:28,Survey Test,,100,1,True,2024-03-27 15:04:28,R_bsjdDMp3E4mQUrY,,,,,,,test,,25 - 34,Republican,,Not very strong,,,2,4,1
+2024-03-27 15:04:28,2024-03-27 15:04:28,Survey Test,,100,0,True,2024-03-27 15:04:28,R_6LOGtZZwkq3GxKu,,,,,,,test,,25 - 34,Republican,,Strong,,,,3,0
+2024-03-27 15:04:28,2024-03-27 15:04:28,Survey Test,,100,0,True,2024-03-27 15:04:29,R_9HpHULesKZoeDEG,,,,,,,test,,65+,Other,Vitae? Vel tempus porttitor metus sodales aliquam faucibus? Atque? Enim dolorem vehicula odio aliquet.,,,Neither,,5,0
+2024-03-27 15:04:29,2024-03-27 15:04:29,Survey Test,,100,0,True,2024-03-27 15:04:29,R_9FuFZEfLVyi303A,,,,,,,test,,U18,Democrat,,,Not very strong,,1,2,0
+2024-03-27 15:04:29,2024-03-27 15:04:29,Survey Test,,100,0,True,2024-03-27 15:04:29,R_8eN9ZhVemzESzsy,,,,,,,test,,35 - 44,No preference,,,,Democratic,,1,0
+2024-03-27 15:04:29,2024-03-27 15:04:29,Survey Test,,100,0,True,2024-03-27 15:04:29,R_9uGbHNsAF5siuSa,,,,,,,test,,U18,Other,Morbi vitae? Aenean aliquam? Venenatis accusamus proin massa suspendisse. Imperdiet integer euismod.,,,Republican,,5,0
+2024-03-27 15:04:30,2024-03-27 15:04:30,Survey Test,,100,0,True,2024-03-27 15:04:30,R_02jE37uCbiexC62,,,,,,,test,,45 - 54,Independent,,,,Republican,,1,1
+2024-03-27 15:04:30,2024-03-27 15:04:30,Survey Test,,100,0,True,2024-03-27 15:04:30,R_0cGah7cXO5i6F5Y,,,,,,,test,,25 - 34,Republican,,Strong,,,,3,0
+2024-03-27 15:04:30,2024-03-27 15:04:30,Survey Test,,100,0,True,2024-03-27 15:04:31,R_bK4ygS5hECRbgqy,,,,,,,test,,25 - 34,Republican,,Strong,,,,1,0
+2024-03-27 15:04:31,2024-03-27 15:04:31,Survey Test,,100,0,True,2024-03-27 15:04:31,R_3xBKAvcN2nHFIxM,,,,,,,test,,45 - 54,Other,Sem bibendum scelerisque in diam egestas praesent? Felis nullam culpa dui mi eros.,,,Republican,,4,1
+2024-03-27 15:04:31,2024-03-27 15:04:31,Survey Test,,100,0,True,2024-03-27 15:04:31,R_4PcDpdR7fBsPrKe,,,,,,,test,,55 - 64,Republican,,Strong,,,,2,0
+2024-03-27 15:04:31,2024-03-27 15:04:32,Survey Test,,100,1,True,2024-03-27 15:04:32,R_1Unvji8L8dmoTBk,,,,,,,test,,65+,No preference,,,,Democratic,,4,1
+2024-03-27 15:04:34,2024-03-27 15:04:34,Survey Test,,100,0,True,2024-03-27 15:04:34,R_1Xq8cOfAeqZAhBY,,,,,,,test,,65+,Independent,,,,Republican,,1,1
+2024-03-27 15:04:34,2024-03-27 15:04:34,Survey Test,,100,0,True,2024-03-27 15:04:34,R_26jLa1tkHLlCfd4,,,,,,,test,,25 - 34,No preference,,,,Democratic,,3,0
+2024-03-27 15:04:34,2024-03-27 15:04:34,Survey Test,,100,0,True,2024-03-27 15:04:34,R_cM8VDAaHA0kgZ94,,,,,,,test,,U18,Other,Convallis pharetra convallis tempus tellus magnis eget. Tempora? Tempus montes placerat blandit sollicitudin.,,,Democratic,,2,0
+2024-03-27 15:04:35,2024-03-27 15:04:35,Survey Test,,100,0,True,2024-03-27 15:04:35,R_5mUrtONcol3Tqh8,,,,,,,test,,25 - 34,No preference,,,,Neither,,2,0
+2024-03-27 15:04:35,2024-03-27 15:04:35,Survey Test,,100,0,True,2024-03-27 15:04:35,R_1NA8zaSPwyujwma,,,,,,,test,,55 - 64,No preference,,,,Neither,,2,1
+2024-03-27 15:04:36,2024-03-27 15:04:36,Survey Test,,100,0,True,2024-03-27 15:04:36,R_bmyFHXiOegqsxf0,,,,,,,test,,18 - 24,Democrat,,,Not very strong,,3,4,0
+2024-03-27 15:04:36,2024-03-27 15:04:36,Survey Test,,100,0,True,2024-03-27 15:04:37,R_8piDfaPGPWVXhJ4,,,,,,,test,,25 - 34,No preference,,,,Neither,,4,0
+2024-03-27 15:04:37,2024-03-27 15:04:37,Survey Test,,100,0,True,2024-03-27 15:04:37,R_1IgPnoyVbbt1wOy,,,,,,,test,,65+,Democrat,,,Not very strong,,2,1,0
+2024-03-27 15:04:37,2024-03-27 15:04:38,Survey Test,,100,1,True,2024-03-27 15:04:38,R_brqYe82YcQwGU1o,,,,,,,test,,U18,Other,"Egestas? Vulputate auctor aenean sollicitudin id? Primis tempora, pede montes.",,,Republican,,1,1
+2024-03-27 15:04:38,2024-03-27 15:04:38,Survey Test,,100,0,True,2024-03-27 15:04:38,R_39OgROQMAwl9roy,,,,,,,test,,18 - 24,No preference,,,,Republican,,4,0
+2024-03-27 15:04:38,2024-03-27 15:04:38,Survey Test,,100,0,True,2024-03-27 15:04:39,R_efb3WGQxXtO8r66,,,,,,,test,,25 - 34,Independent,,,,Neither,,5,0
+2024-03-27 15:04:39,2024-03-27 15:04:39,Survey Test,,100,0,True,2024-03-27 15:04:39,R_8bGrMb7U6ahahlc,,,,,,,test,,35 - 44,No preference,,,,Republican,,1,0
+2024-03-27 15:04:39,2024-03-27 15:04:39,Survey Test,,100,0,True,2024-03-27 15:04:39,R_b4afWszcCuGLfWS,,,,,,,test,,45 - 54,No preference,,,,Republican,,2,0
+2024-03-27 15:04:39,2024-03-27 15:04:40,Survey Test,,100,1,True,2024-03-27 15:04:40,R_5jN0l7IEDGm0EN8,,,,,,,test,,35 - 44,Republican,,Not very strong,,,5,2,0
+2024-03-27 15:04:40,2024-03-27 15:04:40,Survey Test,,100,0,True,2024-03-27 15:04:40,R_5tdsDKBMX1OBdQ2,,,,,,,test,,U18,Democrat,,,Strong,,,4,0
+2024-03-27 15:04:40,2024-03-27 15:04:41,Survey Test,,100,1,True,2024-03-27 15:04:41,R_3rP2U55GKgOkXPw,,,,,,,test,,U18,Democrat,,,Not very strong,,4,2,0
+2024-03-27 15:04:41,2024-03-27 15:04:41,Survey Test,,100,0,True,2024-03-27 15:04:41,R_6ySudbbYPluMdfg,,,,,,,test,,65+,Republican,,Strong,,,,2,0
+2024-03-27 15:04:41,2024-03-27 15:04:41,Survey Test,,100,0,True,2024-03-27 15:04:42,R_1Og8g0bqF1OUn6m,,,,,,,test,,35 - 44,Other,Ultrices accumsan dictumst iaculis! Euismod ac. Quam ridiculus tempora. Laoreet est.,,,Neither,,4,1
+2024-03-27 15:04:42,2024-03-27 15:04:42,Survey Test,,100,0,True,2024-03-27 15:04:42,R_4Z3CSVxGWzGJqDQ,,,,,,,test,,U18,No preference,,,,Republican,,4,1
+2024-03-27 15:04:42,2024-03-27 15:04:42,Survey Test,,100,0,True,2024-03-27 15:04:42,R_3rQJ97u5IxwQWA6,,,,,,,test,,55 - 64,Republican,,Not very strong,,,4,2,0
+2024-03-27 15:04:43,2024-03-27 15:04:43,Survey Test,,100,0,True,2024-03-27 15:04:43,R_djcm7B18vDQQyqi,,,,,,,test,,25 - 34,Republican,,Strong,,,,3,0
+2024-03-27 15:04:43,2024-03-27 15:04:43,Survey Test,,100,0,True,2024-03-27 15:04:43,R_0OnMdXHq4NMyEku,,,,,,,test,,45 - 54,Democrat,,,Strong,,,1,0
+2024-03-27 15:04:43,2024-03-27 15:04:43,Survey Test,,100,0,True,2024-03-27 15:04:43,R_3LbYDPQvND5NXbE,,,,,,,test,,25 - 34,Independent,,,,Neither,,2,0
+2024-03-27 15:04:44,2024-03-27 15:04:44,Survey Test,,100,0,True,2024-03-27 15:04:44,R_3fwWzXJtCqiZ5P0,,,,,,,test,,35 - 44,No preference,,,,Neither,,3,1
+2024-03-27 15:04:44,2024-03-27 15:04:44,Survey Test,,100,0,True,2024-03-27 15:04:44,R_bmjrFaMF0I6yfMW,,,,,,,test,,U18,Republican,,Not very strong,,,2,4,1
+2024-03-27 15:04:44,2024-03-27 15:04:44,Survey Test,,100,0,True,2024-03-27 15:04:44,R_2icGncRxQcFk8Xc,,,,,,,test,,35 - 44,Other,"Ridiculus integer lacus etiam accumsan, nibh fermentum tempora erat nullam.",,,Democratic,,2,1
+2024-03-27 15:04:45,2024-03-27 15:04:45,Survey Test,,100,0,True,2024-03-27 15:04:45,R_7ZGtPNoyjrkJlwq,,,,,,,test,,45 - 54,No preference,,,,Democratic,,3,1
+2024-03-27 15:04:45,2024-03-27 15:04:45,Survey Test,,100,0,True,2024-03-27 15:04:45,R_6L7HeOzX8fTzaCi,,,,,,,test,,45 - 54,Republican,,Not very strong,,,5,5,0
+2024-03-27 15:04:45,2024-03-27 15:04:46,Survey Test,,100,1,True,2024-03-27 15:04:46,R_2b15PkmiSgSqIrs,,,,,,,test,,25 - 34,Democrat,,,Strong,,,1,0
+2024-03-27 15:04:46,2024-03-27 15:04:46,Survey Test,,100,0,True,2024-03-27 15:04:46,R_1MkcosdyAEkWWgK,,,,,,,test,,18 - 24,Republican,,Strong,,,,3,1
+2024-03-27 15:04:47,2024-03-27 15:04:47,Survey Test,,100,0,True,2024-03-27 15:04:47,R_bJTRj9TQlx8XyWa,,,,,,,test,,45 - 54,No preference,,,,Neither,,1,0
+2024-03-27 15:04:47,2024-03-27 15:04:47,Survey Test,,100,0,True,2024-03-27 15:04:47,R_78K5uCy1SSnMQuy,,,,,,,test,,18 - 24,Democrat,,,Strong,,,5,0
+2024-03-27 15:04:47,2024-03-27 15:04:47,Survey Test,,100,0,True,2024-03-27 15:04:47,R_1SMgoKc44a65wJ8,,,,,,,test,,55 - 64,Other,"Dapibus ac fermentum dolor erat sapien risus tortor, placerat. Imperdiet! Vivamus fermentum facilisi accumsan.",,,Neither,,4,0
+2024-03-27 15:04:48,2024-03-27 15:04:48,Survey Test,,100,0,True,2024-03-27 15:04:48,R_55rF2yVA61Ot37g,,,,,,,test,,25 - 34,Republican,,Strong,,,,3,1
+2024-03-27 15:04:48,2024-03-27 15:04:48,Survey Test,,100,0,True,2024-03-27 15:04:48,R_eqxiM6w9CceLfKu,,,,,,,test,,55 - 64,Democrat,,,Not very strong,,1,4,0
+2024-03-27 15:04:48,2024-03-27 15:04:49,Survey Test,,100,1,True,2024-03-27 15:04:49,R_9nPOJxTjN5Fsd1A,,,,,,,test,,55 - 64,Democrat,,,Strong,,,2,1
+2024-03-27 15:04:49,2024-03-27 15:04:49,Survey Test,,100,0,True,2024-03-27 15:04:49,R_5oiQCO9jOIdxU9g,,,,,,,test,,55 - 64,No preference,,,,Neither,,5,1
+2024-03-27 15:04:49,2024-03-27 15:04:49,Survey Test,,100,0,True,2024-03-27 15:04:49,R_0Cd5zZTM9uwLmBg,,,,,,,test,,35 - 44,Independent,,,,Democratic,,5,1
+2024-03-27 15:04:49,2024-03-27 15:04:50,Survey Test,,100,1,True,2024-03-27 15:04:50,R_735BjcOmU5Hqzrg,,,,,,,test,,35 - 44,Other,Leo culpa tempus imperdiet. At commodo non. Commodo euismod nulla etiam facilisi. Neque.,,,Neither,,1,1
+2024-03-27 15:04:50,2024-03-27 15:04:50,Survey Test,,100,0,True,2024-03-27 15:04:50,R_56fadouf6gzEFV4,,,,,,,test,,55 - 64,Independent,,,,Neither,,2,1
+2024-03-27 15:04:50,2024-03-27 15:04:50,Survey Test,,100,0,True,2024-03-27 15:04:50,R_78wHClGUPbI8Hk2,,,,,,,test,,45 - 54,No preference,,,,Neither,,1,1
+2024-03-27 15:04:51,2024-03-27 15:04:51,Survey Test,,100,0,True,2024-03-27 15:04:51,R_b2TlA8KdU0qRRxs,,,,,,,test,,18 - 24,Republican,,Not very strong,,,2,2,0
+2024-03-27 15:04:51,2024-03-27 15:04:51,Survey Test,,100,0,True,2024-03-27 15:04:52,R_8Ju1hxw8oupUx3o,,,,,,,test,,25 - 34,No preference,,,,Neither,,4,1
+2024-03-27 15:04:52,2024-03-27 15:04:52,Survey Test,,100,0,True,2024-03-27 15:04:52,R_3KkSOHlwPyLr1Z4,,,,,,,test,,55 - 64,No preference,,,,Republican,,2,0
+2024-03-27 15:04:52,2024-03-27 15:04:52,Survey Test,,100,0,True,2024-03-27 15:04:52,R_6yB25sumZCcM7r0,,,,,,,test,,65+,Independent,,,,Republican,,1,0
+2024-03-27 15:04:53,2024-03-27 15:04:53,Survey Test,,100,0,True,2024-03-27 15:04:53,R_bIvjK1uYsxyzw46,,,,,,,test,,45 - 54,No preference,,,,Neither,,1,1
+2024-03-27 15:04:53,2024-03-27 15:04:53,Survey Test,,100,0,True,2024-03-27 15:04:53,R_0DKdLSvnR7dGkIe,,,,,,,test,,25 - 34,No preference,,,,Republican,,3,0
+2024-03-27 15:04:53,2024-03-27 15:04:54,Survey Test,,100,1,True,2024-03-27 15:04:54,R_06xWz38QAn39Ib4,,,,,,,test,,U18,Independent,,,,Democratic,,2,1
+2024-03-27 15:04:54,2024-03-27 15:04:54,Survey Test,,100,0,True,2024-03-27 15:04:54,R_1TjiBNQWMhxP0xg,,,,,,,test,,18 - 24,No preference,,,,Republican,,4,0
+2024-03-27 15:04:54,2024-03-27 15:04:54,Survey Test,,100,0,True,2024-03-27 15:04:54,R_dmPsgvqw2B33e50,,,,,,,test,,U18,Democrat,,,Not very strong,,5,2,0
+2024-03-27 15:04:55,2024-03-27 15:04:55,Survey Test,,100,0,True,2024-03-27 15:04:55,R_4SdqUVz2jFItYZU,,,,,,,test,,U18,Independent,,,,Republican,,1,1
+2024-03-27 15:04:55,2024-03-27 15:04:55,Survey Test,,100,0,True,2024-03-27 15:04:55,R_cFQe9lCH9oy6pKK,,,,,,,test,,45 - 54,No preference,,,,Neither,,5,1
+2024-03-27 15:04:55,2024-03-27 15:04:55,Survey Test,,100,0,True,2024-03-27 15:04:56,R_5drpIdouEzP8oPs,,,,,,,test,,35 - 44,No preference,,,,Neither,,3,0
+2024-03-27 15:04:56,2024-03-27 15:04:56,Survey Test,,100,0,True,2024-03-27 15:04:56,R_2mYhdu6QOw2Qx7M,,,,,,,test,,25 - 34,Other,"Platea egestas sodales aliquet. Morbi maecenas felis molestie! Sit tempora, accusamus potenti.",,,Republican,,1,1
+2024-03-27 15:04:56,2024-03-27 15:04:56,Survey Test,,100,0,True,2024-03-27 15:04:57,R_3WAkxtfVEGwtFuC,,,,,,,test,,18 - 24,No preference,,,,Republican,,2,0
+2024-03-27 15:04:57,2024-03-27 15:04:57,Survey Test,,100,0,True,2024-03-27 15:04:57,R_02prb48q1a7NSUm,,,,,,,test,,55 - 64,Republican,,Strong,,,,5,0
+2024-03-27 15:04:57,2024-03-27 15:04:57,Survey Test,,100,0,True,2024-03-27 15:04:57,R_42sMPQkvpK1AgOq,,,,,,,test,,U18,Republican,,Not very strong,,,5,1,0
+2024-03-27 15:04:58,2024-03-27 15:04:58,Survey Test,,100,0,True,2024-03-27 15:04:58,R_cCP0BL9wD46oKV0,,,,,,,test,,U18,No preference,,,,Democratic,,3,1
+2024-03-27 15:04:58,2024-03-27 15:04:58,Survey Test,,100,0,True,2024-03-27 15:04:58,R_bju1E0AlX8gKth4,,,,,,,test,,55 - 64,Republican,,Not very strong,,,1,4,1
+2024-03-27 15:04:58,2024-03-27 15:04:58,Survey Test,,100,0,True,2024-03-27 15:04:58,R_cIQiQ7Gv8OTOeW2,,,,,,,test,,45 - 54,Independent,,,,Democratic,,3,1
+2024-03-27 15:04:59,2024-03-27 15:04:59,Survey Test,,100,0,True,2024-03-27 15:04:59,R_1XfZj3bVvSA34fc,,,,,,,test,,65+,Independent,,,,Neither,,5,0
+2024-03-27 15:04:59,2024-03-27 15:04:59,Survey Test,,100,0,True,2024-03-27 15:04:59,R_0GSH9o4thMAAXUa,,,,,,,test,,45 - 54,Democrat,,,Not very strong,,5,1,0
+2024-03-27 15:05:00,2024-03-27 15:05:00,Survey Test,,100,0,True,2024-03-27 15:05:00,R_9sPOs77KqEu7NqK,,,,,,,test,,55 - 64,Democrat,,,Not very strong,,1,5,1
+2024-03-27 15:05:11,2024-03-27 15:05:11,Survey Test,,100,0,True,2024-03-27 15:05:11,R_3X9weZJD5Z0Uc3s,,,,,,,test,,65+,No preference,,,,Republican,,5,1
+2024-03-27 15:05:12,2024-03-27 15:05:12,Survey Test,,100,0,True,2024-03-27 15:05:12,R_bmwGZ79eDXlijVI,,,,,,,test,,65+,No preference,,,,Democratic,,5,1
+2024-03-27 15:05:12,2024-03-27 15:05:12,Survey Test,,100,0,True,2024-03-27 15:05:12,R_eu5RzV9K4ywMgsu,,,,,,,test,,35 - 44,Republican,,Strong,,,,2,1
+2024-03-27 15:05:12,2024-03-27 15:05:12,Survey Test,,100,0,True,2024-03-27 15:05:12,R_0BSbTzIhsvU1Mzk,,,,,,,test,,55 - 64,Other,Metus ultricies porta dolor potenti! Commodo malesuada in natoque! Lorem. Pretium.,,,Democratic,,4,1
+2024-03-27 15:05:12,2024-03-27 15:05:12,Survey Test,,100,0,True,2024-03-27 15:05:13,R_dh8eQeAxkAYYOfs,,,,,,,test,,35 - 44,Independent,,,,Republican,,1,1
+2024-03-27 15:05:13,2024-03-27 15:05:13,Survey Test,,100,0,True,2024-03-27 15:05:13,R_5goLYrK92odc2Ro,,,,,,,test,,U18,No preference,,,,Democratic,,1,1
+2024-03-27 15:05:13,2024-03-27 15:05:13,Survey Test,,100,0,True,2024-03-27 15:05:13,R_6PV7p625Gpziuea,,,,,,,test,,25 - 34,Independent,,,,Democratic,,1,0
+2024-03-27 15:05:13,2024-03-27 15:05:14,Survey Test,,100,1,True,2024-03-27 15:05:14,R_3q3mXayLYQoMs3Y,,,,,,,test,,25 - 34,Other,Etiam. Risus? Faucibus aliquet blandit molestie praesent atque sollicitudin pellentesque.,,,Democratic,,3,1
+2024-03-27 15:05:14,2024-03-27 15:05:14,Survey Test,,100,0,True,2024-03-27 15:05:14,R_6u3xYtTavFPw26q,,,,,,,test,,55 - 64,Other,"Consectetuer proin volutpat fringilla risus curabitur phasellus, porttitor luctus purus donec temporibus? Accusamus id quam.",,,Neither,,2,0
+2024-03-27 15:05:14,2024-03-27 15:05:14,Survey Test,,100,0,True,2024-03-27 15:05:14,R_0UmMxVfUsYALVpI,,,,,,,test,,55 - 64,Other,"Ultrices sed. Vestibulum viverra, consequat magnis. Vel metus, vel orci rhoncus tortor elit nullam. Porttitor.",,,Republican,,2,1
+2024-03-27 15:05:14,2024-03-27 15:05:15,Survey Test,,100,1,True,2024-03-27 15:05:15,R_3LhOzBMbdidUsuy,,,,,,,test,,55 - 64,Independent,,,,Neither,,4,1
+2024-03-27 15:05:15,2024-03-27 15:05:15,Survey Test,,100,0,True,2024-03-27 15:05:15,R_72nB0Lnmt5DR6Vo,,,,,,,test,,65+,No preference,,,,Democratic,,3,0
+2024-03-27 15:05:15,2024-03-27 15:05:15,Survey Test,,100,0,True,2024-03-27 15:05:15,R_6u0AspoBKxcybrw,,,,,,,test,,U18,No preference,,,,Neither,,2,0
+2024-03-27 15:05:16,2024-03-27 15:05:16,Survey Test,,100,0,True,2024-03-27 15:05:16,R_24hakIILtVsmtCe,,,,,,,test,,55 - 64,Other,Ultrices atque ridiculus? Porttitor a elit tellus cursus. Volutpat? Culpa et sollicitudin. Bibendum consequat.,,,Democratic,,3,0
+2024-03-27 15:05:16,2024-03-27 15:05:16,Survey Test,,100,0,True,2024-03-27 15:05:16,R_09hyOP2XSapR6jc,,,,,,,test,,U18,Democrat,,,Not very strong,,3,3,1
+2024-03-27 15:05:16,2024-03-27 15:05:16,Survey Test,,100,0,True,2024-03-27 15:05:16,R_d1oF8fUUyVSJpjg,,,,,,,test,,45 - 54,No preference,,,,Republican,,4,1
+2024-03-27 15:05:17,2024-03-27 15:05:17,Survey Test,,100,0,True,2024-03-27 15:05:17,R_3xEUAW9cl2RhQEu,,,,,,,test,,65+,Independent,,,,Republican,,3,1
+2024-03-27 15:05:17,2024-03-27 15:05:17,Survey Test,,100,0,True,2024-03-27 15:05:17,R_eLgw46apjnv2jfU,,,,,,,test,,35 - 44,Other,"Et culpa elementum? Arcu molestie sapien vestibulum dapibus, erat eleifend pretium scelerisque vestibulum cras enim.",,,Democratic,,5,1
+2024-03-27 15:05:17,2024-03-27 15:05:18,Survey Test,,100,1,True,2024-03-27 15:05:18,R_1S5xAEXRqOjtXH8,,,,,,,test,,35 - 44,Republican,,Strong,,,,4,1
+2024-03-27 15:05:18,2024-03-27 15:05:18,Survey Test,,100,0,True,2024-03-27 15:05:18,R_78npBu4ZuplPL0i,,,,,,,test,,U18,Other,Praesent? Aenean risus suscipit! Euismod viverra posuere montes gravida elit leo leo? Tellus.,,,Neither,,4,0
+2024-03-27 15:05:18,2024-03-27 15:05:18,Survey Test,,100,0,True,2024-03-27 15:05:19,R_bk0HXfXeLRjjiTk,,,,,,,test,,18 - 24,Independent,,,,Neither,,4,1
+2024-03-27 15:05:19,2024-03-27 15:05:19,Survey Test,,100,0,True,2024-03-27 15:05:19,R_57mZrWg0gCk55VI,,,,,,,test,,35 - 44,No preference,,,,Neither,,2,0
+2024-03-27 15:05:19,2024-03-27 15:05:19,Survey Test,,100,0,True,2024-03-27 15:05:19,R_29RCkmkYfbWuHno,,,,,,,test,,U18,Democrat,,,Strong,,,1,0
+2024-03-27 15:05:20,2024-03-27 15:05:20,Survey Test,,100,0,True,2024-03-27 15:05:20,R_9uExYhzZX8cQS90,,,,,,,test,,45 - 54,Republican,,Not very strong,,,5,1,0
+2024-03-27 15:05:20,2024-03-27 15:05:20,Survey Test,,100,0,True,2024-03-27 15:05:20,R_72K0JzKamHSkeOO,,,,,,,test,,U18,Democrat,,,Strong,,,3,0
+2024-03-27 15:05:20,2024-03-27 15:05:20,Survey Test,,100,0,True,2024-03-27 15:05:21,R_6YHsCwUW1Uvqnf8,,,,,,,test,,35 - 44,No preference,,,,Neither,,2,1
+2024-03-27 15:05:21,2024-03-27 15:05:21,Survey Test,,100,0,True,2024-03-27 15:05:21,R_6tkCKoZdQrvvkFg,,,,,,,test,,35 - 44,No preference,,,,Republican,,1,1
+2024-03-27 15:05:21,2024-03-27 15:05:21,Survey Test,,100,0,True,2024-03-27 15:05:21,R_6DPSQulRznnYJ38,,,,,,,test,,65+,No preference,,,,Republican,,5,0
+2024-03-27 15:05:22,2024-03-27 15:05:22,Survey Test,,100,0,True,2024-03-27 15:05:22,R_enZ349oCCHepU5o,,,,,,,test,,35 - 44,Republican,,Strong,,,,2,1
+2024-03-27 15:05:22,2024-03-27 15:05:22,Survey Test,,100,0,True,2024-03-27 15:05:22,R_6FGdjKmWXyckw18,,,,,,,test,,25 - 34,No preference,,,,Democratic,,1,1
+2024-03-27 15:05:22,2024-03-27 15:05:22,Survey Test,,100,0,True,2024-03-27 15:05:22,R_3kOYms4iR9h1E2y,,,,,,,test,,55 - 64,Other,Primis orci quam arcu! Porta sem non mattis integer. Vestibulum.,,,Democratic,,1,1
+2024-03-27 15:05:23,2024-03-27 15:05:23,Survey Test,,100,0,True,2024-03-27 15:05:23,R_af7ePw1p5oHPZLU,,,,,,,test,,45 - 54,Democrat,,,Not very strong,,3,5,1
+2024-03-27 15:05:23,2024-03-27 15:05:23,Survey Test,,100,0,True,2024-03-27 15:05:23,R_ehcV6iy4mvjntoa,,,,,,,test,,45 - 54,Independent,,,,Democratic,,3,0
+2024-03-27 15:05:23,2024-03-27 15:05:23,Survey Test,,100,0,True,2024-03-27 15:05:24,R_3EhOtV6C1nBcqUu,,,,,,,test,,65+,Independent,,,,Neither,,4,1
+2024-03-27 15:05:24,2024-03-27 15:05:24,Survey Test,,100,0,True,2024-03-27 15:05:24,R_9mzVkyj5OSqQnAi,,,,,,,test,,U18,Other,"Nonummy ultrices gravida, egestas, risus! Sodales at suspendisse risus facilisi neque maecenas.",,,Democratic,,2,0
+2024-03-27 15:05:24,2024-03-27 15:05:24,Survey Test,,100,0,True,2024-03-27 15:05:24,R_8qNtSv9recze9oO,,,,,,,test,,65+,No preference,,,,Republican,,5,1
+2024-03-27 15:05:24,2024-03-27 15:05:25,Survey Test,,100,1,True,2024-03-27 15:05:25,R_1NtOrXCXqGIF2Wq,,,,,,,test,,55 - 64,Other,Eget blandit posuere porttitor vitae malesuada temporibus culpa vehicula aenean pede in per.,,,Neither,,3,1
+2024-03-27 15:05:25,2024-03-27 15:05:25,Survey Test,,100,0,True,2024-03-27 15:05:25,R_eM6v4ys4HSQdndc,,,,,,,test,,45 - 54,Democrat,,,Strong,,,3,0
+2024-03-27 15:05:25,2024-03-27 15:05:25,Survey Test,,100,0,True,2024-03-27 15:05:25,R_8FYLut0QxptywNE,,,,,,,test,,25 - 34,Independent,,,,Republican,,5,1
+2024-03-27 15:05:26,2024-03-27 15:05:26,Survey Test,,100,0,True,2024-03-27 15:05:26,R_3Je2RCTTmnmwcE6,,,,,,,test,,18 - 24,Republican,,Strong,,,,5,0
+2024-03-27 15:05:26,2024-03-27 15:05:26,Survey Test,,100,0,True,2024-03-27 15:05:26,R_3DbPY2tSy7ZvbEi,,,,,,,test,,18 - 24,Democrat,,,Not very strong,,5,5,1
+2024-03-27 15:05:26,2024-03-27 15:05:26,Survey Test,,100,0,True,2024-03-27 15:05:27,R_8Buz9SZorXHyMf4,,,,,,,test,,65+,Democrat,,,Strong,,,5,0
+2024-03-27 15:05:27,2024-03-27 15:05:27,Survey Test,,100,0,True,2024-03-27 15:05:27,R_07KEIBuQTP9bASG,,,,,,,test,,35 - 44,Independent,,,,Democratic,,2,1
+2024-03-27 15:05:27,2024-03-27 15:05:27,Survey Test,,100,0,True,2024-03-27 15:05:27,R_8v2v6T8JzbkSenI,,,,,,,test,,65+,Democrat,,,Strong,,,3,0
+2024-03-27 15:05:27,2024-03-27 15:05:27,Survey Test,,100,0,True,2024-03-27 15:05:28,R_2sHJSeic9IbsKl8,,,,,,,test,,45 - 54,Republican,,Strong,,,,3,0
+2024-03-27 15:05:28,2024-03-27 15:05:28,Survey Test,,100,0,True,2024-03-27 15:05:28,R_dp3epTlNoxctibY,,,,,,,test,,25 - 34,No preference,,,,Republican,,5,0
+2024-03-27 15:05:28,2024-03-27 15:05:28,Survey Test,,100,0,True,2024-03-27 15:05:28,R_beojlypsHhBUSma,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,3,5,1
+2024-03-27 15:05:29,2024-03-27 15:05:29,Survey Test,,100,0,True,2024-03-27 15:05:29,R_6JtHhZYWOa7CoHs,,,,,,,test,,65+,Democrat,,,Strong,,,4,0
+2024-03-27 15:05:29,2024-03-27 15:05:29,Survey Test,,100,0,True,2024-03-27 15:05:29,R_6Rl2HRm4LT79lJA,,,,,,,test,,18 - 24,Democrat,,,Not very strong,,5,5,0
+2024-03-27 15:05:29,2024-03-27 15:05:29,Survey Test,,100,0,True,2024-03-27 15:05:29,R_6Yx8AcXvgtNRljM,,,,,,,test,,U18,Democrat,,,Not very strong,,3,1,0
+2024-03-27 15:05:30,2024-03-27 15:05:30,Survey Test,,100,0,True,2024-03-27 15:05:30,R_8uDGXtfnnVE9T4W,,,,,,,test,,65+,Independent,,,,Republican,,4,0
+2024-03-27 15:05:30,2024-03-27 15:05:30,Survey Test,,100,0,True,2024-03-27 15:05:30,R_a9R10NCvDmFkJKu,,,,,,,test,,18 - 24,Republican,,Strong,,,,1,1
+2024-03-27 15:05:30,2024-03-27 15:05:30,Survey Test,,100,0,True,2024-03-27 15:05:31,R_06ZL7tC9PZqzL26,,,,,,,test,,55 - 64,Democrat,,,Strong,,,5,1
+2024-03-27 15:05:31,2024-03-27 15:05:31,Survey Test,,100,0,True,2024-03-27 15:05:31,R_7aEbJASlSLgIKsC,,,,,,,test,,18 - 24,Independent,,,,Neither,,3,0
+2024-03-27 15:05:31,2024-03-27 15:05:31,Survey Test,,100,0,True,2024-03-27 15:05:31,R_3JFWZPBJ1xJnkyy,,,,,,,test,,55 - 64,Other,Facilisis amet massa magnis proin augue imperdiet facilisis eget auctor nulla vel nibh et eros.,,,Democratic,,2,0
+2024-03-27 15:05:31,2024-03-27 15:05:32,Survey Test,,100,1,True,2024-03-27 15:05:32,R_55VYGfPjtxXGZD0,,,,,,,test,,25 - 34,Republican,,Strong,,,,2,1
+2024-03-27 15:05:32,2024-03-27 15:05:32,Survey Test,,100,0,True,2024-03-27 15:05:32,R_afP90HhfE27YHc2,,,,,,,test,,55 - 64,Independent,,,,Republican,,2,1
+2024-03-27 15:05:32,2024-03-27 15:05:32,Survey Test,,100,0,True,2024-03-27 15:05:33,R_8iFqFR75tAAvQgK,,,,,,,test,,45 - 54,Republican,,Not very strong,,,5,5,1
+2024-03-27 15:05:33,2024-03-27 15:05:33,Survey Test,,100,0,True,2024-03-27 15:05:33,R_eLfGDzFR9NPMQlM,,,,,,,test,,35 - 44,Republican,,Strong,,,,5,1
+2024-03-27 15:05:33,2024-03-27 15:05:33,Survey Test,,100,0,True,2024-03-27 15:05:33,R_8xj7Uf9ZDg8K502,,,,,,,test,,25 - 34,Independent,,,,Republican,,1,0
+2024-03-27 15:05:34,2024-03-27 15:05:34,Survey Test,,100,0,True,2024-03-27 15:05:34,R_afQCaRKQ7Fm5nhk,,,,,,,test,,25 - 34,Democrat,,,Strong,,,5,1
+2024-03-27 15:05:34,2024-03-27 15:05:34,Survey Test,,100,0,True,2024-03-27 15:05:34,R_5chkb9csyx3ewUS,,,,,,,test,,25 - 34,Independent,,,,Republican,,3,0
+2024-03-27 15:05:34,2024-03-27 15:05:34,Survey Test,,100,0,True,2024-03-27 15:05:35,R_bKsTL4u2RDYyZqm,,,,,,,test,,45 - 54,Republican,,Strong,,,,3,0
+2024-03-27 15:05:35,2024-03-27 15:05:35,Survey Test,,100,0,True,2024-03-27 15:05:35,R_3jFYFYnHBKO3S2a,,,,,,,test,,25 - 34,Republican,,Not very strong,,,2,4,0
+2024-03-27 15:05:35,2024-03-27 15:05:35,Survey Test,,100,0,True,2024-03-27 15:05:35,R_3atxaWszrwQx9Iy,,,,,,,test,,25 - 34,Democrat,,,Strong,,,4,1
+2024-03-27 15:05:35,2024-03-27 15:05:36,Survey Test,,100,1,True,2024-03-27 15:05:36,R_9GpAjHlw0nDGTKC,,,,,,,test,,55 - 64,Republican,,Not very strong,,,5,1,0
+2024-03-27 15:05:36,2024-03-27 15:05:36,Survey Test,,100,0,True,2024-03-27 15:05:36,R_0wV5ZKZ2oHVZkIC,,,,,,,test,,65+,Democrat,,,Not very strong,,1,2,0
+2024-03-27 15:05:36,2024-03-27 15:05:36,Survey Test,,100,0,True,2024-03-27 15:05:36,R_cJeOiXlBmz5CJ82,,,,,,,test,,35 - 44,Independent,,,,Republican,,3,0
+2024-03-27 15:05:37,2024-03-27 15:05:37,Survey Test,,100,0,True,2024-03-27 15:05:37,R_4I5iBrfZKEacEXY,,,,,,,test,,U18,Independent,,,,Neither,,5,0
+2024-03-27 15:05:37,2024-03-27 15:05:37,Survey Test,,100,0,True,2024-03-27 15:05:37,R_0q768HCAd6PR39A,,,,,,,test,,18 - 24,No preference,,,,Democratic,,2,1
+2024-03-27 15:05:37,2024-03-27 15:05:37,Survey Test,,100,0,True,2024-03-27 15:05:38,R_6XTL2eo4k9PWzDE,,,,,,,test,,35 - 44,Other,Dictumst rutrum imperdiet rhoncus vulputate mauris pharetra. Duis venenatis posuere facilisi tempor.,,,Republican,,4,0
+2024-03-27 15:05:38,2024-03-27 15:05:38,Survey Test,,100,0,True,2024-03-27 15:05:38,R_bygO8ME89xGYAB0,,,,,,,test,,65+,Independent,,,,Democratic,,3,1
+2024-03-27 15:05:38,2024-03-27 15:05:38,Survey Test,,100,0,True,2024-03-27 15:05:38,R_9NbP1yeJj1VYJsq,,,,,,,test,,25 - 34,Other,Risus tortor? Ligula sapien suscipit accumsan augue molestie gravida at velit elementum.,,,Neither,,4,1
+2024-03-27 15:05:39,2024-03-27 15:05:39,Survey Test,,100,0,True,2024-03-27 15:05:39,R_8GnvPusPXDoo1y6,,,,,,,test,,45 - 54,Independent,,,,Republican,,2,0
+2024-03-27 15:05:39,2024-03-27 15:05:39,Survey Test,,100,0,True,2024-03-27 15:05:39,R_9smQt3r6GhGJ0nY,,,,,,,test,,25 - 34,Democrat,,,Not very strong,,4,1,1
+2024-03-27 15:05:39,2024-03-27 15:05:39,Survey Test,,100,0,True,2024-03-27 15:05:39,R_2nJgx8uvzdZldmm,,,,,,,test,,U18,Democrat,,,Strong,,,3,1
+2024-03-27 15:05:40,2024-03-27 15:05:40,Survey Test,,100,0,True,2024-03-27 15:05:40,R_eQaaJUEweg6qqZE,,,,,,,test,,45 - 54,Other,"Mauris ridiculus a nec facilisis. Iaculis, metus metus fusce aliquam erat. Tempor. Posuere pharetra dictumst.",,,Democratic,,5,0
+2024-03-27 15:05:40,2024-03-27 15:05:40,Survey Test,,100,0,True,2024-03-27 15:05:40,R_aaBVmn1yBho8OKq,,,,,,,test,,35 - 44,Other,Malesuada dolor elit ultrices curabitur! Elit pede suscipit pede pede neque nulla arcu.,,,Republican,,3,0
+2024-03-27 15:05:40,2024-03-27 15:05:41,Survey Test,,100,1,True,2024-03-27 15:05:41,R_8wFiuzr0n92zqOW,,,,,,,test,,U18,No preference,,,,Neither,,1,1
+2024-03-27 15:05:41,2024-03-27 15:05:41,Survey Test,,100,0,True,2024-03-27 15:05:41,R_bdD9RZTS8q0PaWa,,,,,,,test,,45 - 54,Republican,,Not very strong,,,5,2,0
+2024-03-27 15:05:41,2024-03-27 15:05:41,Survey Test,,100,0,True,2024-03-27 15:05:41,R_3w3x6sSPQaI1bSK,,,,,,,test,,65+,Republican,,Not very strong,,,1,5,1
+2024-03-27 15:05:42,2024-03-27 15:05:42,Survey Test,,100,0,True,2024-03-27 15:05:42,R_ekyol5dEvRdUurQ,,,,,,,test,,35 - 44,Independent,,,,Neither,,5,0
+2024-03-27 15:05:42,2024-03-27 15:05:42,Survey Test,,100,0,True,2024-03-27 15:05:43,R_b8c8dIxNPRR5PEy,,,,,,,test,,55 - 64,No preference,,,,Neither,,1,1
+2024-03-27 15:05:43,2024-03-27 15:05:43,Survey Test,,100,0,True,2024-03-27 15:05:43,R_54s6YnAFPbwPrzU,,,,,,,test,,18 - 24,No preference,,,,Democratic,,5,0
+2024-03-27 15:05:43,2024-03-27 15:05:43,Survey Test,,100,0,True,2024-03-27 15:05:43,R_3t7tXpt10qPKMzI,,,,,,,test,,U18,Democrat,,,Strong,,,2,1
+2024-03-27 15:05:44,2024-03-27 15:05:44,Survey Test,,100,0,True,2024-03-27 15:05:44,R_4Pfgy2uw57SaM0S,,,,,,,test,,55 - 64,Other,Arcu molestie fermentum? Felis. Curabitur non tellus nulla. Dignissim tempor. Facilisis pede.,,,Republican,,5,0
+2024-03-27 15:05:44,2024-03-27 15:05:44,Survey Test,,100,0,True,2024-03-27 15:05:44,R_eR2HttWzDXuPLPE,,,,,,,test,,25 - 34,Democrat,,,Not very strong,,1,2,0
+2024-03-27 15:05:44,2024-03-27 15:05:44,Survey Test,,100,0,True,2024-03-27 15:05:44,R_dnz95SJmJ77kNim,,,,,,,test,,65+,Republican,,Strong,,,,2,1
+2024-03-27 15:05:45,2024-03-27 15:05:45,Survey Test,,100,0,True,2024-03-27 15:05:45,R_40icMySHLlZGVqm,,,,,,,test,,65+,Other,Amet cras ullamcorper ultricies sodales! Mattis? Cras nec bibendum risus purus.,,,Democratic,,4,0
+2024-03-27 15:05:45,2024-03-27 15:05:45,Survey Test,,100,0,True,2024-03-27 15:05:45,R_dj05BmvrpdmoLNc,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,2,5,0
+2024-03-27 15:05:45,2024-03-27 15:05:46,Survey Test,,100,1,True,2024-03-27 15:05:46,R_cJ6aWJfLe3mS2NM,,,,,,,test,,65+,Independent,,,,Democratic,,3,1
+2024-03-27 15:05:46,2024-03-27 15:05:46,Survey Test,,100,0,True,2024-03-27 15:05:46,R_4158Ea6H7rydpCS,,,,,,,test,,65+,Independent,,,,Republican,,4,1
+2024-03-27 15:05:46,2024-03-27 15:05:46,Survey Test,,100,0,True,2024-03-27 15:05:46,R_3aSzV8inQrPgQ3c,,,,,,,test,,18 - 24,Other,Odio wisi interdum facilisi nullam venenatis atque quam tempus vivamus ullamcorper pharetra. Accumsan! Velit potenti.,,,Republican,,5,0
+2024-03-27 15:05:47,2024-03-27 15:05:47,Survey Test,,100,0,True,2024-03-27 15:05:47,R_0ANfstMX7c2LmDQ,,,,,,,test,,18 - 24,Republican,,Strong,,,,2,1
+2024-03-27 15:05:47,2024-03-27 15:05:47,Survey Test,,100,0,True,2024-03-27 15:05:47,R_bfjmjAgt7UBP5dQ,,,,,,,test,,55 - 64,No preference,,,,Neither,,2,0
+2024-03-27 15:05:47,2024-03-27 15:05:48,Survey Test,,100,1,True,2024-03-27 15:05:48,R_2moMvvRqaNWLwGO,,,,,,,test,,18 - 24,Other,Commodo laoreet justo fringilla. Porta tincidunt. Interdum gravida porta fermentum nunc proin dolorem ridiculus proin.,,,Democratic,,5,0
+2024-03-27 15:05:48,2024-03-27 15:05:48,Survey Test,,100,0,True,2024-03-27 15:05:48,R_eDt1rTMSiKncKZo,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,5,2,0
+2024-03-27 15:05:48,2024-03-27 15:05:48,Survey Test,,100,0,True,2024-03-27 15:05:48,R_25mvxVqMgYst6oC,,,,,,,test,,65+,Democrat,,,Strong,,,3,1
+2024-03-27 15:05:49,2024-03-27 15:05:49,Survey Test,,100,0,True,2024-03-27 15:05:49,R_a3FjcMkwpu6QcJg,,,,,,,test,,25 - 34,Democrat,,,Not very strong,,1,1,0
+2024-03-27 15:05:49,2024-03-27 15:05:49,Survey Test,,100,0,True,2024-03-27 15:05:49,R_agV8kX7toSKEojc,,,,,,,test,,U18,Independent,,,,Republican,,2,1
+2024-03-27 15:05:54,2024-03-27 15:05:54,Survey Test,,100,0,True,2024-03-27 15:05:55,R_6RIwKaepEfLsxBY,,,,,,,test,,25 - 34,Independent,,,,Democratic,,5,0
+2024-03-27 15:05:55,2024-03-27 15:05:55,Survey Test,,100,0,True,2024-03-27 15:05:55,R_6nF4fMYZ6qmI56u,,,,,,,test,,18 - 24,Other,Molestie pede dolorem eleifend. Vel porta egestas! Volutpat elementum pede magna tempor turpis? Phasellus.,,,Democratic,,2,0
+2024-03-27 15:05:55,2024-03-27 15:05:55,Survey Test,,100,0,True,2024-03-27 15:05:55,R_3I3gz1FpraxY14W,,,,,,,test,,25 - 34,Other,Rutrum mattis a ac. Sapien non fringilla potenti magnis accusamus. Pede rhoncus fringilla.,,,Democratic,,4,0
+2024-03-27 15:05:55,2024-03-27 15:05:56,Survey Test,,100,1,True,2024-03-27 15:05:56,R_eeqdCBByHgqQlq6,,,,,,,test,,25 - 34,Republican,,Not very strong,,,5,5,0
+2024-03-27 15:05:56,2024-03-27 15:05:56,Survey Test,,100,0,True,2024-03-27 15:05:56,R_bxCDPNWMNCZFRLE,,,,,,,test,,65+,Other,Eget id temporibus bibendum ut! Commodo egestas! Praesent felis ultricies. Vivamus viverra.,,,Republican,,2,0
+2024-03-27 15:05:56,2024-03-27 15:05:56,Survey Test,,100,0,True,2024-03-27 15:05:56,R_88HMXn4dXgfMia2,,,,,,,test,,25 - 34,Other,"Donec tortor. Culpa, vulputate pharetra sollicitudin ut elit praesent primis.",,,Democratic,,4,0
+2024-03-27 15:05:57,2024-03-27 15:05:57,Survey Test,,100,0,True,2024-03-27 15:05:57,R_6J7ckEQXRKZO4Wa,,,,,,,test,,45 - 54,No preference,,,,Democratic,,1,0
+2024-03-27 15:05:57,2024-03-27 15:05:57,Survey Test,,100,0,True,2024-03-27 15:05:57,R_eYjwR4LnbyE6wn4,,,,,,,test,,U18,Republican,,Not very strong,,,3,5,0
+2024-03-27 15:05:57,2024-03-27 15:05:58,Survey Test,,100,1,True,2024-03-27 15:05:58,R_9YbFMvzLrcng6aO,,,,,,,test,,45 - 54,Republican,,Strong,,,,5,1
+2024-03-27 15:05:58,2024-03-27 15:05:58,Survey Test,,100,0,True,2024-03-27 15:05:58,R_4JwH95ZTpKVOBAq,,,,,,,test,,45 - 54,Independent,,,,Neither,,1,0
+2024-03-27 15:05:58,2024-03-27 15:05:58,Survey Test,,100,0,True,2024-03-27 15:05:58,R_8lkDn6CE1pERBEG,,,,,,,test,,18 - 24,Republican,,Not very strong,,,2,3,1
+2024-03-27 15:05:58,2024-03-27 15:05:59,Survey Test,,100,1,True,2024-03-27 15:05:59,R_71ZgP6uYUXicIhU,,,,,,,test,,45 - 54,No preference,,,,Republican,,5,0
+2024-03-27 15:05:59,2024-03-27 15:05:59,Survey Test,,100,0,True,2024-03-27 15:05:59,R_dipERkZXe3E8MIu,,,,,,,test,,25 - 34,Independent,,,,Republican,,3,1
+2024-03-27 15:05:59,2024-03-27 15:05:59,Survey Test,,100,0,True,2024-03-27 15:06:00,R_39Luvid4bjoQ3xs,,,,,,,test,,35 - 44,Other,"Erat risus blandit? Quam. Massa phasellus! Dignissim per, consequat magnis dapibus.",,,Neither,,2,1
+2024-03-27 15:06:00,2024-03-27 15:06:00,Survey Test,,100,0,True,2024-03-27 15:06:00,R_eqCG13ocNDo0cui,,,,,,,test,,25 - 34,Republican,,Strong,,,,3,0
+2024-03-27 15:06:00,2024-03-27 15:06:00,Survey Test,,100,0,True,2024-03-27 15:06:01,R_bI9HF34daxl4s3I,,,,,,,test,,65+,Other,"Urna magna vitae quam. Ullamcorper suspendisse facilisi, sem magna pharetra montes.",,,Neither,,1,0
+2024-03-27 15:06:01,2024-03-27 15:06:01,Survey Test,,100,0,True,2024-03-27 15:06:01,R_089Q5SCm3PP4YJw,,,,,,,test,,18 - 24,Republican,,Strong,,,,4,1
+2024-03-27 15:06:01,2024-03-27 15:06:01,Survey Test,,100,0,True,2024-03-27 15:06:01,R_3pIPm9W3GPhXtWe,,,,,,,test,,18 - 24,Republican,,Not very strong,,,5,2,1
+2024-03-27 15:06:02,2024-03-27 15:06:02,Survey Test,,100,0,True,2024-03-27 15:06:02,R_5hgfAL55HkURfDw,,,,,,,test,,65+,Republican,,Not very strong,,,5,3,0
+2024-03-27 15:06:02,2024-03-27 15:06:02,Survey Test,,100,0,True,2024-03-27 15:06:02,R_6Y8KSHX28ZCLMuq,,,,,,,test,,35 - 44,Republican,,Not very strong,,,1,5,0
+2024-03-27 15:06:02,2024-03-27 15:06:02,Survey Test,,100,0,True,2024-03-27 15:06:02,R_dm1Sj9Q4CtYZv0O,,,,,,,test,,25 - 34,Republican,,Strong,,,,1,0
+2024-03-27 15:06:03,2024-03-27 15:06:03,Survey Test,,100,0,True,2024-03-27 15:06:03,R_cucKSnPyEtTJPKe,,,,,,,test,,U18,Independent,,,,Neither,,1,1
+2024-03-27 15:06:03,2024-03-27 15:06:03,Survey Test,,100,0,True,2024-03-27 15:06:03,R_8umtDkRQA0dFcDY,,,,,,,test,,55 - 64,Independent,,,,Neither,,1,0
+2024-03-27 15:06:03,2024-03-27 15:06:04,Survey Test,,100,1,True,2024-03-27 15:06:04,R_40cfHC1R05FGJeK,,,,,,,test,,35 - 44,No preference,,,,Neither,,4,0
+2024-03-27 15:06:04,2024-03-27 15:06:04,Survey Test,,100,0,True,2024-03-27 15:06:04,R_3IWWlAx01qCd1qu,,,,,,,test,,U18,Independent,,,,Democratic,,4,0
+2024-03-27 15:06:04,2024-03-27 15:06:04,Survey Test,,100,0,True,2024-03-27 15:06:04,R_bwPejRbg9E6jCIu,,,,,,,test,,U18,Republican,,Strong,,,,4,0
+2024-03-27 15:06:04,2024-03-27 15:06:05,Survey Test,,100,1,True,2024-03-27 15:06:05,R_elIvVjjEVZz7ISa,,,,,,,test,,65+,Independent,,,,Democratic,,1,1
+2024-03-27 15:06:05,2024-03-27 15:06:05,Survey Test,,100,0,True,2024-03-27 15:06:05,R_7VteAPMtXZFEiG2,,,,,,,test,,65+,Independent,,,,Neither,,4,1
+2024-03-27 15:06:05,2024-03-27 15:06:05,Survey Test,,100,0,True,2024-03-27 15:06:05,R_8k892WS8rNHRiuO,,,,,,,test,,35 - 44,Democrat,,,Strong,,,5,0
+2024-03-27 15:06:06,2024-03-27 15:06:06,Survey Test,,100,0,True,2024-03-27 15:06:06,R_71e9A2uRxbUvixU,,,,,,,test,,65+,Independent,,,,Democratic,,5,0
+2024-03-27 15:06:06,2024-03-27 15:06:06,Survey Test,,100,0,True,2024-03-27 15:06:06,R_6GcfaY7S0UxKnuC,,,,,,,test,,U18,Republican,,Strong,,,,4,1
+2024-03-27 15:06:06,2024-03-27 15:06:06,Survey Test,,100,0,True,2024-03-27 15:06:07,R_6R3dapJXxA9TaSi,,,,,,,test,,18 - 24,Republican,,Not very strong,,,2,1,1
+2024-03-27 15:06:07,2024-03-27 15:06:07,Survey Test,,100,0,True,2024-03-27 15:06:07,R_esys0gwlI751YiO,,,,,,,test,,U18,Other,Faucibus erat vestibulum. Vehicula blandit elit diam nec maecenas curabitur et curabitur.,,,Democratic,,1,0
+2024-03-27 15:06:07,2024-03-27 15:06:07,Survey Test,,100,0,True,2024-03-27 15:06:07,R_bxyIYW9EoPbopPo,,,,,,,test,,U18,No preference,,,,Republican,,3,0
+2024-03-27 15:06:08,2024-03-27 15:06:08,Survey Test,,100,0,True,2024-03-27 15:06:08,R_2aDVdiwFT0asHnE,,,,,,,test,,18 - 24,Other,Quam cursus iaculis nibh id velit. Eros nonummy elementum? Nibh turpis.,,,Democratic,,2,1
+2024-03-27 15:06:08,2024-03-27 15:06:08,Survey Test,,100,0,True,2024-03-27 15:06:08,R_cvy770vC8CEF23I,,,,,,,test,,55 - 64,No preference,,,,Republican,,2,0
+2024-03-27 15:06:08,2024-03-27 15:06:09,Survey Test,,100,1,True,2024-03-27 15:06:09,R_bgrkznJxdJppQfc,,,,,,,test,,18 - 24,Democrat,,,Strong,,,3,1
+2024-03-27 15:06:09,2024-03-27 15:06:09,Survey Test,,100,0,True,2024-03-27 15:06:09,R_6RN8N20E09R0UT4,,,,,,,test,,25 - 34,Republican,,Not very strong,,,1,5,0
+2024-03-27 15:06:09,2024-03-27 15:06:09,Survey Test,,100,0,True,2024-03-27 15:06:09,R_02787lUDhphaLOK,,,,,,,test,,18 - 24,No preference,,,,Neither,,3,1
+2024-03-27 15:06:10,2024-03-27 15:06:10,Survey Test,,100,0,True,2024-03-27 15:06:10,R_bEHKnvJLrBQ7Q7Y,,,,,,,test,,35 - 44,Republican,,Strong,,,,1,0
+2024-03-27 15:06:10,2024-03-27 15:06:10,Survey Test,,100,0,True,2024-03-27 15:06:10,R_bIvl6PNaj027eXY,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,3,1,1
+2024-03-27 15:06:10,2024-03-27 15:06:11,Survey Test,,100,1,True,2024-03-27 15:06:11,R_3Q6kjC96LbFDxps,,,,,,,test,,18 - 24,Democrat,,,Strong,,,5,1
+2024-03-27 15:06:11,2024-03-27 15:06:11,Survey Test,,100,0,True,2024-03-27 15:06:11,R_3jDpQnhsH0VykMS,,,,,,,test,,U18,Independent,,,,Democratic,,1,0
+2024-03-27 15:06:11,2024-03-27 15:06:11,Survey Test,,100,0,True,2024-03-27 15:06:11,R_8odVMKIit9psXjg,,,,,,,test,,45 - 54,Democrat,,,Strong,,,2,0
+2024-03-27 15:06:11,2024-03-27 15:06:12,Survey Test,,100,1,True,2024-03-27 15:06:12,R_esrkfpagWodMBoO,,,,,,,test,,55 - 64,No preference,,,,Republican,,4,1
+2024-03-27 15:06:12,2024-03-27 15:06:12,Survey Test,,100,0,True,2024-03-27 15:06:12,R_5dPgXscobGaDygm,,,,,,,test,,35 - 44,No preference,,,,Neither,,4,1
+2024-03-27 15:06:12,2024-03-27 15:06:12,Survey Test,,100,0,True,2024-03-27 15:06:12,R_7Va4iwT8tE12gke,,,,,,,test,,55 - 64,Independent,,,,Neither,,2,0
+2024-03-27 15:06:12,2024-03-27 15:06:13,Survey Test,,100,1,True,2024-03-27 15:06:13,R_4JINoArj8388ZkW,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,2,4,0
+2024-03-27 15:06:13,2024-03-27 15:06:13,Survey Test,,100,0,True,2024-03-27 15:06:13,R_ddoZYfyyYULoPTo,,,,,,,test,,18 - 24,Independent,,,,Neither,,4,0
+2024-03-27 15:06:13,2024-03-27 15:06:13,Survey Test,,100,0,True,2024-03-27 15:06:13,R_cO6vWgJKljZyD4O,,,,,,,test,,25 - 34,Republican,,Strong,,,,5,0
+2024-03-27 15:06:13,2024-03-27 15:06:14,Survey Test,,100,1,True,2024-03-27 15:06:14,R_8jEX5Lz9pI0E41o,,,,,,,test,,18 - 24,Republican,,Strong,,,,1,0
+2024-03-27 15:06:14,2024-03-27 15:06:14,Survey Test,,100,0,True,2024-03-27 15:06:14,R_6tx2LP8bAxAFIXk,,,,,,,test,,45 - 54,Independent,,,,Neither,,1,0
+2024-03-27 15:06:14,2024-03-27 15:06:14,Survey Test,,100,0,True,2024-03-27 15:06:14,R_5msWSayH4AHLYy2,,,,,,,test,,U18,Republican,,Strong,,,,3,0
+2024-03-27 15:06:14,2024-03-27 15:06:15,Survey Test,,100,1,True,2024-03-27 15:06:15,R_6JWXTqGEiKneg1E,,,,,,,test,,35 - 44,Independent,,,,Democratic,,3,0
+2024-03-27 15:06:15,2024-03-27 15:06:15,Survey Test,,100,0,True,2024-03-27 15:06:15,R_200knChjIyQZv1k,,,,,,,test,,55 - 64,Republican,,Not very strong,,,5,4,1
+2024-03-27 15:06:15,2024-03-27 15:06:15,Survey Test,,100,0,True,2024-03-27 15:06:15,R_d5arfhQXiVeM6RU,,,,,,,test,,55 - 64,Republican,,Not very strong,,,5,5,0
+2024-03-27 15:06:16,2024-03-27 15:06:16,Survey Test,,100,0,True,2024-03-27 15:06:16,R_1NQl7RQ3hTuEFGm,,,,,,,test,,18 - 24,Republican,,Not very strong,,,4,5,1
+2024-03-27 15:06:16,2024-03-27 15:06:16,Survey Test,,100,0,True,2024-03-27 15:06:16,R_dhsOmQQiloGo0Ci,,,,,,,test,,25 - 34,Independent,,,,Democratic,,5,0
+2024-03-27 15:06:16,2024-03-27 15:06:16,Survey Test,,100,0,True,2024-03-27 15:06:17,R_el0R4rpr5QpE4MC,,,,,,,test,,U18,No preference,,,,Democratic,,2,0
+2024-03-27 15:06:17,2024-03-27 15:06:17,Survey Test,,100,0,True,2024-03-27 15:06:17,R_dnW0DmFxCb7B31Q,,,,,,,test,,18 - 24,Republican,,Strong,,,,4,1
+2024-03-27 15:06:17,2024-03-27 15:06:17,Survey Test,,100,0,True,2024-03-27 15:06:17,R_87CWQBGKyktQsAe,,,,,,,test,,35 - 44,Other,Cursus ullamcorper blandit leo donec pede ligula. Amet donec duis! Auctor eget.,,,Democratic,,2,0
+2024-03-27 15:06:17,2024-03-27 15:06:17,Survey Test,,100,0,True,2024-03-27 15:06:17,R_7aLB3g8x99oqM1o,,,,,,,test,,25 - 34,Independent,,,,Republican,,2,0
+2024-03-27 15:06:18,2024-03-27 15:06:18,Survey Test,,100,0,True,2024-03-27 15:06:18,R_3qmqd4ojhrO6WSq,,,,,,,test,,65+,Other,Duis ligula temporibus praesent tempora elementum platea aliquam! Potenti? Pretium faucibus.,,,Democratic,,5,1
+2024-03-27 15:06:18,2024-03-27 15:06:18,Survey Test,,100,0,True,2024-03-27 15:06:18,R_6DsyMwQCwIRZHsa,,,,,,,test,,55 - 64,Republican,,Not very strong,,,1,5,1
+2024-03-27 15:06:18,2024-03-27 15:06:18,Survey Test,,100,0,True,2024-03-27 15:06:19,R_ddshtrnkTx0enR4,,,,,,,test,,35 - 44,No preference,,,,Neither,,1,1
+2024-03-27 15:06:19,2024-03-27 15:06:19,Survey Test,,100,0,True,2024-03-27 15:06:19,R_7VVRWRfuVAzN1oG,,,,,,,test,,65+,No preference,,,,Republican,,3,0
+2024-03-27 15:06:19,2024-03-27 15:06:19,Survey Test,,100,0,True,2024-03-27 15:06:19,R_0AtRMKUdA8dKqcS,,,,,,,test,,55 - 64,Democrat,,,Not very strong,,3,4,0
+2024-03-27 15:06:19,2024-03-27 15:06:19,Survey Test,,100,0,True,2024-03-27 15:06:20,R_8w4OcSg4v79KkWa,,,,,,,test,,35 - 44,Independent,,,,Republican,,4,0
+2024-03-27 15:06:20,2024-03-27 15:06:20,Survey Test,,100,0,True,2024-03-27 15:06:20,R_8ctK8emgy13nyt0,,,,,,,test,,25 - 34,No preference,,,,Neither,,3,1
+2024-03-27 15:06:20,2024-03-27 15:06:20,Survey Test,,100,0,True,2024-03-27 15:06:20,R_ddr13J5EnYNs6Zo,,,,,,,test,,45 - 54,Republican,,Not very strong,,,3,5,1
+2024-03-27 15:06:20,2024-03-27 15:06:20,Survey Test,,100,0,True,2024-03-27 15:06:21,R_aWvW1ja5ZruiLFc,,,,,,,test,,18 - 24,Democrat,,,Not very strong,,5,4,0
+2024-03-27 15:06:21,2024-03-27 15:06:21,Survey Test,,100,0,True,2024-03-27 15:06:21,R_86Nex5P4yYdXKE6,,,,,,,test,,U18,Republican,,Strong,,,,1,1
+2024-03-27 15:06:21,2024-03-27 15:06:21,Survey Test,,100,0,True,2024-03-27 15:06:21,R_9QSDlULhKF2SOhM,,,,,,,test,,35 - 44,Other,"Turpis eget? Nulla, porta faucibus iaculis, dapibus maecenas, ultricies odio ipsum velit est vel nullam.",,,Republican,,2,1
+2024-03-27 15:06:21,2024-03-27 15:06:22,Survey Test,,100,1,True,2024-03-27 15:06:22,R_9WzhantALjh4vvo,,,,,,,test,,U18,Independent,,,,Republican,,2,0
+2024-03-27 15:06:22,2024-03-27 15:06:22,Survey Test,,100,0,True,2024-03-27 15:06:22,R_8dhNd7TIvn6L5Do,,,,,,,test,,U18,Other,"Scelerisque scelerisque suscipit rhoncus. Lectus proin quis? Malesuada facilisi, posuere interdum urna, vivamus.",,,Democratic,,2,0
+2024-03-27 15:06:22,2024-03-27 15:06:22,Survey Test,,100,0,True,2024-03-27 15:06:22,R_2uxUjpyBHc9ULS6,,,,,,,test,,65+,Republican,,Strong,,,,5,0
+2024-03-27 15:06:23,2024-03-27 15:06:23,Survey Test,,100,0,True,2024-03-27 15:06:23,R_1YVNB3FibNJQ3v8,,,,,,,test,,35 - 44,Democrat,,,Not very strong,,4,3,0
+2024-03-27 15:06:23,2024-03-27 15:06:23,Survey Test,,100,0,True,2024-03-27 15:06:23,R_5uwTELmKWbWFy9U,,,,,,,test,,65+,Other,Turpis sit. Pellentesque morbi! Neque turpis primis risus. Sollicitudin rhoncus.,,,Neither,,3,0
+2024-03-27 15:06:23,2024-03-27 15:06:23,Survey Test,,100,0,True,2024-03-27 15:06:24,R_eE9hwEEKDPyvOJM,,,,,,,test,,18 - 24,Other,Convallis convallis felis lorem duis. Pellentesque praesent leo neque! Fermentum integer.,,,Democratic,,2,0
+2024-03-27 15:06:24,2024-03-27 15:06:24,Survey Test,,100,0,True,2024-03-27 15:06:24,R_4IbIultjprTUaxM,,,,,,,test,,45 - 54,No preference,,,,Neither,,2,1
+2024-03-27 15:06:24,2024-03-27 15:06:24,Survey Test,,100,0,True,2024-03-27 15:06:25,R_7aIJMApEorjCbUa,,,,,,,test,,55 - 64,No preference,,,,Democratic,,3,1
+2024-03-27 15:06:25,2024-03-27 15:06:25,Survey Test,,100,0,True,2024-03-27 15:06:25,R_56XZE9P7CmCzBpY,,,,,,,test,,65+,Democrat,,,Not very strong,,1,2,1
+2024-03-27 15:06:25,2024-03-27 15:06:25,Survey Test,,100,0,True,2024-03-27 15:06:26,R_7VZcMfGHS8ub4Z8,,,,,,,test,,U18,Democrat,,,Strong,,,1,1
+2024-03-27 15:06:26,2024-03-27 15:06:26,Survey Test,,100,0,True,2024-03-27 15:06:26,R_bKq3USWnLQ9HJjw,,,,,,,test,,65+,Independent,,,,Democratic,,3,1
+2024-03-27 15:06:26,2024-03-27 15:06:26,Survey Test,,100,0,True,2024-03-27 15:06:26,R_bDwmAoq5ycqQH0W,,,,,,,test,,35 - 44,Republican,,Strong,,,,2,1
+2024-03-27 15:06:27,2024-03-27 15:06:27,Survey Test,,100,0,True,2024-03-27 15:06:27,R_6RKUVsBLsnIAMyG,,,,,,,test,,U18,Other,Egestas magna dictumst primis non. Ut arcu. Tellus quam dignissim scelerisque! Commodo pede. Ullamcorper.,,,Republican,,4,0
+2024-03-27 15:06:27,2024-03-27 15:06:27,Survey Test,,100,0,True,2024-03-27 15:06:27,R_eJNLfSw5GVndGR0,,,,,,,test,,25 - 34,Independent,,,,Neither,,5,0
+2024-03-27 15:06:27,2024-03-27 15:06:27,Survey Test,,100,0,True,2024-03-27 15:06:27,R_71XSZG6h08ZUSsS,,,,,,,test,,18 - 24,Other,"Lacus quam posuere. Morbi sodales vestibulum auctor, mattis velit porttitor tempus. Volutpat.",,,Republican,,2,0
+2024-03-27 15:06:28,2024-03-27 15:06:28,Survey Test,,100,0,True,2024-03-27 15:06:28,R_aY8ESeiTL7W2pp4,,,,,,,test,,65+,Democrat,,,Strong,,,1,1
+2024-03-27 15:06:28,2024-03-27 15:06:28,Survey Test,,100,0,True,2024-03-27 15:06:28,R_eM2ApE9d7mSLDGS,,,,,,,test,,55 - 64,Independent,,,,Republican,,1,1
+2024-03-27 15:06:28,2024-03-27 15:06:28,Survey Test,,100,0,True,2024-03-27 15:06:28,R_08LDTzEfElYU9me,,,,,,,test,,35 - 44,No preference,,,,Neither,,1,0
+2024-03-27 15:06:29,2024-03-27 15:06:29,Survey Test,,100,0,True,2024-03-27 15:06:29,R_5d3W6ktv2OUl9vE,,,,,,,test,,35 - 44,Other,"Aliquam gravida consequat porttitor! Dolorem faucibus, dignissim aliquam. Natoque suscipit.",,,Republican,,3,1
+2024-03-27 15:06:29,2024-03-27 15:06:29,Survey Test,,100,0,True,2024-03-27 15:06:29,R_0IzZECbe3AgsfZ4,,,,,,,test,,55 - 64,Other,Scelerisque ullamcorper consectetuer augue dui iaculis ante fusce faucibus ultricies accusamus.,,,Democratic,,2,0
+2024-03-27 15:06:29,2024-03-27 15:06:30,Survey Test,,100,1,True,2024-03-27 15:06:30,R_6YcT9Usp62Kxwq2,,,,,,,test,,25 - 34,Republican,,Not very strong,,,4,1,1
+2024-03-27 15:06:30,2024-03-27 15:06:30,Survey Test,,100,0,True,2024-03-27 15:06:30,R_5uq5tcvAgS0Ah02,,,,,,,test,,45 - 54,Democrat,,,Not very strong,,3,3,1
+2024-03-27 15:06:31,2024-03-27 15:06:31,Survey Test,,100,0,True,2024-03-27 15:06:31,R_byIkFBibtEQIQku,,,,,,,test,,18 - 24,Republican,,Strong,,,,2,1
+2024-03-27 15:06:31,2024-03-27 15:06:31,Survey Test,,100,0,True,2024-03-27 15:06:31,R_8DfZg89Qptrs2wK,,,,,,,test,,18 - 24,Independent,,,,Neither,,4,1
+2024-03-27 15:06:32,2024-03-27 15:06:32,Survey Test,,100,0,True,2024-03-27 15:06:32,R_by0lfQcxiQJtNGe,,,,,,,test,,35 - 44,Republican,,Not very strong,,,1,4,0
+2024-03-27 15:06:32,2024-03-27 15:06:32,Survey Test,,100,0,True,2024-03-27 15:06:33,R_b4pPyq1DyRu9J30,,,,,,,test,,25 - 34,Other,Vestibulum phasellus sed. Viverra arcu proin! Accusamus ligula ante viverra purus primis? Facilisis a.,,,Democratic,,4,0
+2024-03-27 15:06:33,2024-03-27 15:06:33,Survey Test,,100,0,True,2024-03-27 15:06:33,R_3aC5DX0djUVfway,,,,,,,test,,18 - 24,Independent,,,,Democratic,,4,1
