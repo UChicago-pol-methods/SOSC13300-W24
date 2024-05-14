@@ -1,4 +1,4 @@
-\documentclass{beamer}
+\documentclass[handout]{beamer}
 
 \usepackage{../assets/pres-template_MOW}
 
@@ -23,7 +23,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setlength{\tabcolsep}{1.3pt}
 \title{Social Science Inquiry III}
-\subtitle{Week 1: Course introduction}
+\subtitle{Week 9: Data Visualization}
 \date{Spring 2024}
 \author{Molly Offer-Westort}
 \institute{Department of Political Science, \\University of Chicago}
@@ -53,7 +53,8 @@ library(ggplot2)
 library(ungeviz)
 library(ggridges)
 library(ggthemes)
-devtools::source_url('https://raw.githubusercontent.com/bearloga/Quartile-frame-Scatterplot/master/qfplot.R')
+devtools::source_url(
+  'https://raw.githubusercontent.com/bearloga/Quartile-frame-Scatterplot/master/qfplot.R')
 library(khroma)
 @
 
@@ -134,7 +135,7 @@ library(khroma)
 \begin{wideitemize}
     \item Visual representations of data should accurately reflect the data itself. Representations of numbers on graphs should be proportional to the data they represent. \pause
     \item Label with clarity and detail. \pause
-    \item Don't include more "information-carrying dimensions" than exist in the data. 
+    \item Don't include more ``information-carrying dimensions'' than exist in the data. 
 \end{wideitemize}
 \end{frame}
 
@@ -469,7 +470,7 @@ p +
 \end{frame}
 %-------------------------------------------------------------------------------%
 \begin{frame}
-\frametitle{Principles for creating your ownd colorblind-friendly palettes}
+\frametitle{Principles for creating your own colorblind-friendly palettes}
 \begin{itemize}
     \item Use high contrast between colors.\pause
     \item Avoid using red and green together.\pause
