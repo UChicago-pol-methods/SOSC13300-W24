@@ -1,0 +1,770 @@
+\documentclass{beamer}
+
+\usepackage{../assets/pres-template_MOW}
+
+%--------------------------------------------------------------------------
+% Specific to this document ---------------------------------------
+%--------------------------------------------------------------------------
+\setbeamercovered{invisible}
+\setbeamercolor{postit}{fg=black,bg=Contrast6l}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+
+\definecolor{codebg}{rgb}{0.95,0.95,0.95}
+\lstset{
+    backgroundcolor=\color{codebg},
+    basicstyle=\footnotesize\ttfamily,
+    breaklines=true,
+    columns=fullflexible,
+    language=R
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\tabcolsep}{1.3pt}
+\title{Social Science Inquiry III}
+\subtitle{Week 1: Course introduction}
+\date{Spring 2024}
+\author{Molly Offer-Westort}
+\institute{Department of Political Science, \\University of Chicago}
+
+
+\begin{document}
+
+
+%-------------------------------------------------------------------------------%
+<<setup, include=FALSE, echo = FALSE>>=
+if(!dir.exists('figs91')){dir.create('figs91')}
+@
+%-------------------------------------------------------------------------------%
+\frame{\titlepage
+\thispagestyle{empty}
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]{Loading packages for this class}
+
+<<packages>>=
+set.seed(60637)
+# For plotting:
+library(ggplot2)
+# library(devtools)
+# devtools::install_github("wilkelab/ungeviz")
+library(ungeviz)
+library(ggridges)
+library(ggthemes)
+devtools::source_url('https://raw.githubusercontent.com/bearloga/Quartile-frame-Scatterplot/master/qfplot.R')
+library(khroma)
+@
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxx
+\end{wideitemize}
+
+
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}{Tufte (2001)}
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{../assets/tufte_2001.jpg}
+\end{figure}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+
+\begin{frame}
+\frametitle{Edward Tufte}
+\begin{wideitemize}
+    \item Statistician and Professor Emeritus of Political Science, Statistics, and Computer Science at Yale University.
+\end{wideitemize}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{../assets/tufte-farm.jpg}
+\end{figure}
+
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+
+\begin{frame}{Graphical excellence (in Tufte's words)}
+
+\begin{beamercolorbox}[sep=1em]{postit}
+\begin{wideitemize}
+    \item Graphical displays should:
+    \begin{itemize}
+        \item show the data\pause
+        \item induce the viewer to think about the substance rather than about methodology, graphic design, the technology of graphic production, or something else\pause
+        \item avoid distorting what the data have to say\pause
+        \item present many numbers in a small space\pause
+        \item make large data sets coherent\pause
+        \item encourage the eye to compare different pieces of data\pause
+        \item reveal the data at several levels of detail, from a broad overview to the fine structure\pause
+        \item serve a reasonably clear purpose: description, exploration, tabulation, or decoration\pause
+        \item be closely integrated with the statistical and verbal descriptions of a data set
+    \end{itemize}
+\end{wideitemize}
+\end{beamercolorbox}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{transitionframe}
+\centering
+\textcolor{white}{\Large The Minard Map }
+\end{transitionframe}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}
+\includegraphics[width=\textwidth]{../assets/minard.png}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}
+\frametitle{Graphical integrity}
+\begin{wideitemize}
+    \item Visual representations of data should accurately reflect the data itself. Representations of numbers on graphs should be proportional to the data they represent. \pause
+    \item Label with clarity and detail. \pause
+    \item Don't include more "information-carrying dimensions" than exist in the data. 
+\end{wideitemize}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{../assets/tufte-integrity.jpg}
+\end{figure}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+
+\begin{frame}
+\begin{beamercolorbox}[sep=1em]{postit}
+\frametitle{Five priniples in the theory of data graphics}
+\begin{wideitemize}
+    \item Above all else show the data.\pause
+    \item Maximize the data-ink ratio. \pause
+    \item Erase non-data ink.\pause
+    \item Erase redundant data-ink.\pause
+    \item Revise and edit.\pauses
+\end{wideitemize}
+\end{beamercolorbox}
+
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.85\textwidth]{../assets/tufte-dataInk-01.png}
+\end{figure}
+\hfill  Linus Pauling, \textit{General Chemistry} (San Francisco, 1947), p. 64.%\cite{pauling1947general}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{../assets/tufte-dataInk-02.png}
+\end{figure}
+
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+
+\begin{frame}
+\frametitle{Avoid ``chartjunk''}
+\begin{wideitemize}
+    \item Chartjunk: Non-essential or redundant information in graphics.
+    \item Avoid distractions that do not enhance understanding.
+    \item No meaningless patterns or dimensions, no grids, no chart-as-decoration.  
+\end{wideitemize}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.95\textwidth]{../assets/tufte-dataInk-04.png}
+\end{figure}
+Institute de Expans\~ao Commercial, \textit{Brasil: Graphicos Economics-Estatisticas}, (Rio de Janeiro, 1929) p. 15.
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}
+\frametitle{Data-ink maximization}
+\begin{wideitemize}
+    \item New graphical forms. 
+\end{wideitemize}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE, fig.width =6, fig.height = 4>>=
+p <- ggplot(mpg, aes(class, hwy))
+p + geom_boxplot()
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE, fig.width =6, fig.height = 4, message = FALSE, warning=FALSE>>=
+p + geom_tufteboxplot() + 
+  theme_tufte()
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE, fig.width =6, fig.height = 4, message = FALSE, warning=FALSE>>=
+p + geom_tufteboxplot(median.type = "line") + 
+  theme_tufte()
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE, fig.width =6, fig.height = 4>>=
+p <- ggplot(mtcars, aes(wt, mpg))
+p + geom_point()
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE, fig.width =6, fig.height = 4, message=FALSE, warning = FALSE>>=
+qfplot(x=mtcars$wt, 
+       y=mtcars$mpg, 
+       xlab='wt', 
+       ylab='mpg')
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE, fig.width =6, fig.height = 4>>=
+p +
+  geom_point() +
+  geom_rangeframe() +
+  coord_cartesian(clip = "off") +
+  theme_tufte()
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE, fig.width =6, fig.height = 4>>=
+p + 
+  geom_point() + 
+  geom_rug() + 
+  theme_tufte(ticks=FALSE) + 
+  xlab('wt') +
+  ylab('mpg')
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}
+\frametitle{Multi-functioning graphical elements}
+\begin{wideitemize}
+    \item Use elements that serve more than one purpose.\pause
+    \item Combine text and images for efficient communication.
+\end{wideitemize}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE, fig.width =6, fig.height = 4>>=
+p +
+  geom_point() +  # Add points
+  theme_tufte(ticks=FALSE) +  # Clean theme
+  scale_x_continuous(breaks = round(unique(mtcars$wt),2)) +  # Custom x-axis breaks
+  scale_y_continuous(breaks = round(unique(mtcars$mpg),2) ) +  # Custom y-axis breaks
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 6),  # Rotate and resize x-axis labels
+    axis.text.y = element_text(size = 6)) +
+  xlab('wt') +
+  ylab('mpg')
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+
+\begin{frame}{Other principles}
+\begin{wideitemize}
+    \item Present a large amount of data in a small space.\pause
+    \item Use small multiples to make efficient comparisons, revealing trends. 
+\end{wideitemize}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+
+\begin{frame}{Aesthetics}
+\begin{wideitemize}
+    \item Employ visual balance. \pause
+    \item Combine words, numbers, and pictures--all together in a graphic. \pause
+    \item Lines should be thin. \pause Add weight to add meaning. \pause
+    \item Label series of words horizontally rather than stacked vertically. \pause
+    \item For causal or predictive graphs, plot the response on the Y-axis, the cause or predictor on the X-axis. \pause
+    \item On shape:
+    \begin{itemize}
+      \item If the nature of the data suggests the shape of the plot, follow it. \pause
+      \item ``smoothly-changing curves can stand to be taller rather than wide, but a wiggly curve needs to be wider than tall\dots'' - John W. Tukey, \textit{Exploratory Data Analysis} (1977) p. 129. \pause
+      \item Otherwise, opt for horizontally oriented plots with ratios 3:2 in width:height.
+    \end{itemize}
+\end{wideitemize}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{transitionframe}
+\centering
+\textcolor{white}{\Large Using color }
+\end{transitionframe}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}{Colorblind palettes}
+\begin{wideitemize}
+    \item Use colorblind-friendly palettes to ensure effective communication. 
+\end{wideitemize}
+\end{frame}
+%-------------------------------------------------------------------------------%
+\begin{frame}
+\frametitle{Principles for creating your ownd colorblind-friendly palettes}
+\begin{itemize}
+    \item Use high contrast between colors.\pause
+    \item Avoid using red and green together.\pause
+    \item Use shades to differentiate data points.\pause
+    \item You can test your visualizations with colorblindness simulation tools.
+\end{itemize}
+\end{frame}
+%-------------------------------------------------------------------------------%
+
+\begin{frame}[fragile]
+\frametitle{Paul Tol’s color schemes}
+\cite{tol2021introduction}
+\begin{center}
+<<echo=TRUE, fig.width=6, fig.height=4, message = FALSE, warning=FALSE>>=
+bright <- color("bright")
+plot_scheme(bright(7), colours = TRUE, names = TRUE, size = 0.9)
+@
+\end{center}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+\frametitle{Paul Tol’s color schemes}
+\cite{tol2021introduction}
+\begin{center}
+<<echo=TRUE, fig.width=6, fig.height=4, message = FALSE, warning=FALSE>>=
+highcontrast <- color("high contrast")
+plot_scheme(highcontrast(3), colours = TRUE, names = TRUE, size = 0.9)
+@
+\end{center}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+\frametitle{Paul Tol’s color schemes}
+\cite{tol2021introduction}
+\begin{center}
+<<echo=TRUE, fig.width=6, fig.height=4, message = FALSE, warning=FALSE>>=
+vibrant <- color("vibrant")
+plot_scheme(vibrant(7), colours = TRUE, names = TRUE, size = 0.9)
+@
+\end{center}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+\frametitle{Paul Tol’s color schemes}
+\cite{tol2021introduction}
+\begin{center}
+<<echo=TRUE, fig.width=6, fig.height=4, message = FALSE, warning=FALSE>>=
+muted <- color("muted")
+plot_scheme(muted(9), colours = TRUE, names = TRUE, 
+            size = 0.9)
+@
+\end{center}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+\frametitle{Paul Tol’s color schemes}
+\cite{tol2021introduction}
+\begin{center}
+<<echo=TRUE, fig.width=6, fig.height=4, message = FALSE, warning=FALSE>>=
+iridescent <- color("iridescent")
+plot_scheme(iridescent(23), colours = TRUE, size = 0.5)
+@
+\end{center}
+\end{frame}
+
+%-------------------------------------------------------------------------------%
+
+\begin{transitionframe}
+\centering
+\textcolor{white}{\Large Visualizing uncertainty }
+\end{transitionframe}
+
+%-------------------------------------------------------------------------------%
+
+\begin{frame}[fragile]{Show the underlying data.}
+
+\tiny
+<<eval = FALSE, echo=TRUE, warning=FALSE>>=
+ggplot(iris, aes(Species, Sepal.Length, fill = Species)) +
+    geom_violin(alpha = 0.25, color = NA) +
+    geom_point(position = position_jitter(width = 0.3, height = 0), size = 0.5) +
+    geom_hpline(aes(colour = Species), stat = "summary", width = 0.6, 
+                fun = 'mean')
+@
+\begin{figure}
+\centering
+<<echo=FALSE, warning=FALSE, fig.width=6, fig.height=3.4>>=
+ggplot(iris, aes(Species, Sepal.Length,fill = Species)) +
+    geom_violin(alpha = 0.25, color = NA) +
+    geom_point(position = position_jitter(width = 0.3, height = 0), size = 0.5) +
+    geom_hpline(aes(colour = Species), stat = "summary", width = 0.6, size = 1.5, fun = 'mean') + 
+    theme_bw() +
+    ylab('Sepal Length')
+@
+
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]{Shaded confidence strips. }
+
+\tiny
+<<eval = FALSE, echo=TRUE, warning=FALSE, message = FALSE>>=
+ggplot(cacao_means, aes(x = estimate, y = location)) +
+    stat_confidence_density(aes(moe = std.error), confidence = 0.68, fill = "#81A7D6", height = 0.7) +
+    geom_errorbarh(aes(xmin = estimate - std.error, xmax = estimate + std.error), height = 0.3) +
+    geom_vpline(aes(x = estimate), size = 1.5, height = 0.7, color = "#D55E00")
+@
+\begin{figure}
+\centering
+
+<<echo=FALSE, warning=FALSE, message = FALSE, fig.width=6, fig.height =3.4>>=
+library(dplyr)
+library(forcats)
+library(broom)
+library(emmeans)
+
+cacao_lumped <- cacao %>%
+    mutate(
+        location = fct_lump(location, n = 10)
+    )
+
+cacao_means <- lm(rating ~ location, data = cacao_lumped) %>%
+    emmeans("location") %>%
+    tidy() %>%
+    mutate(location = fct_reorder(location, estimate))
+
+ggplot(cacao_means, aes(x = estimate, y = location)) +
+    stat_confidence_density(aes(moe = std.error), confidence = 0.68, fill = "#81A7D6", height = 0.7) +
+    geom_errorbarh(aes(xmin = estimate - std.error, xmax = estimate + std.error), height = 0.3) +
+    geom_vpline(aes(x = estimate), size = 1.5, height = 0.7, color = "#D55E00") +
+    xlim(2.8, 3.6) + 
+    theme_bw() 
+@
+
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]{Confidence densities. }
+
+\tiny
+<<eval = FALSE, echo=TRUE, warning=FALSE>>=
+ggplot(cacao_means, aes(x = estimate, y = location)) +
+    stat_confidence_density(
+        aes(moe = std.error, height = after_stat(density)), geom = "ridgeline",
+        confidence = 0.68, fill = "#81A7D6", alpha = 0.8, scale = 0.08, min_height = 0.1) +
+    geom_vpline(aes(x = estimate), size = 1.5, height = 0.5, color = "#D55E00")
+@
+\begin{figure}
+\centering
+
+<<echo=FALSE, warning=FALSE, fig.width=6, fig.height =3.4>>=
+ggplot(cacao_means, aes(x = estimate, y = location)) +
+    stat_confidence_density(
+        aes(moe = std.error, height = after_stat(density)), geom = "ridgeline",
+        confidence = 0.68, fill = "#81A7D6", alpha = 0.8, scale = 0.08,
+        min_height = 0.1
+    ) +
+    geom_vpline(aes(x = estimate), size = 1.5, height = 0.5, color = "#D55E00") +
+    xlim(2.8, 3.6) + 
+    theme_bw()
+@
+
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\backupbegin
+%-------------------------------------------------------------------------------%
+
+\begin{frame}[allowframebreaks]{References}
+\nocite{tufte2001visual}
+\begin{wideitemize}
+    \item Paul Tol's color schemes: \url{https://personal.sron.nl/~pault/}; vignettes: \url{https://cran.r-project.org/web/packages/khroma/vignettes/tol.html}
+    \item Clause Wilke: \url{https://wilkelab.org/ungeviz/index.html}
+\end{wideitemize}
+\bibliographystyle{apalike}
+\bibliography{../assets/bib}
+\end{frame}
+%-------------------------------------------------------------------------------%
+
+\backupend
+\end{document}
+%
+\\~\
+%-------------------------------------------------------------------------------%
+%%% [[TEMPLATEs]] %%%
+%-------------------------------------------------------------------------------%
+\begin{frame}[fragile]
+
+\begin{figure}
+\centering
+<<echo=FALSE>>=
+hist(rnorm(10))
+@
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}%{Frametile}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth,height=0.8\textheight,keepaspectratio]{...}
+\end{figure}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+
+}
+
+%-------------------------------------------------------------------------------%
+\begin{frame}%{Frametitle}
+
+\begin{wideitemize}
+\item xxx
+\end{wideitemize}
+
+\end{frame}
+
+
+%%%%%NOTE%%%%%
+\note{
+\scriptsize \singlespacing
+
+\begin{wideitemize}
+\item xxxx
+\end{wideitemize}
+\\~\
+}
+
+%-------------------------------------------------------------------------------%
+<<echo = FALSE>>=
+f <- 'slides_91.Rnw'
+knitr::purl(f)
+knitr::Sweave2knitr(f)
+@
